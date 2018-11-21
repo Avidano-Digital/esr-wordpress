@@ -27,14 +27,28 @@
                 <!-- row 01 -->
                 <div class="row align-items-center">
 
-                    <div class="col-lg py-2" id="wrap-logo">
-                        <a class="d-inline-block" href="/" title="Home">
-                            <?php the_custom_logo(); ?>
-                        </a>
+                    <div class="col-sm py-2">
+
+                        <div class="d-flex justify-content-center justify-content-sm-start align-items-center">
+                        
+                            <a class="d-inline-block" href="/" title="Home">
+                                <?php the_custom_logo(); ?>
+                            </a>
+
+                            <p class="text-white font-weight-bold fs-sm ml-2">
+                                <em>
+                                    <span class="d-block">Bringing Fun to</span>
+                                    <span class="d-block">Wildlife Conservation<sup>TM</sup></span>
+                                </em>
+                            </p>
+                        
+                        </div>
+                        <!-- .d-flex -->
+
                     </div>
                     <!-- .col -->
 
-                    <div class="col-lg-auto text-right">
+                    <div class="col-sm-auto text-right">
 
 
                         <div class="d-xl-none py-1" id="wrap-toggle">
