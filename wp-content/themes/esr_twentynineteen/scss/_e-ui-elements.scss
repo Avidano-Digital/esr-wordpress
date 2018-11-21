@@ -559,7 +559,7 @@ $responsive-nav-pills-and-tabs: true;
 // Link lists are ideal for horizontal navs when supporting 'rtl' 
 
 $link-lists: true;
-$link-list-margin: 0.5em;
+$link-list-margin: 0.25em;
 
 @mixin link-list-stack {
   margin-bottom: $link-list-margin;

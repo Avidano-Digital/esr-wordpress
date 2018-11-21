@@ -71,6 +71,11 @@ h5, .h5
 
 #secondary-navigation,
 #primary-navigation-desktop{
+
+  > ul > li > a{
+    @extend .text-white;
+  }
+
     a.active{
       @extend .text-secondary;
     }
