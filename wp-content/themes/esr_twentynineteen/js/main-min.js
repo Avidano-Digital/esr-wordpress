@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){var i;function s(){t(this).find("ul.sub").length&&(t(this).addClass("active"),t(this).find("ul.sub").addClass("active"))}function e(){t(this).find("ul.sub").length&&(t(this).removeClass("active"),t(this).find("ul.sub").removeClass("active"))}t("#primary-navigation-desktop ul > li").hoverIntent({over:s,out:e,timeout:300})});

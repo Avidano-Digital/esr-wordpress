@@ -1,7 +1,9 @@
 
 <ul class="link-list horizontal justify-content-end">
+
     <li><a <?php if($slug == 'smyke' ) : ?>class="active"<?php endif; ?> href="/smyke"><strong>Smyke</strong></a></li>
     <li><a <?php if($slug == 'carbonita' ) : ?>class="active"<?php endif; ?> href="/carbonita"><strong>Carbonita</strong></a></li>
+    
     <li>
         <a href="https://www.instagram.com/esrevenge/" target="blank" title="Instagram">
             <span class="sr-only">Instagram</span>

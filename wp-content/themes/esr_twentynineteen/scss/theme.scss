@@ -72,13 +72,12 @@ h5, .h5
 #secondary-navigation,
 #primary-navigation-desktop{
 
-  > ul > li > a{
-    @extend .text-white;
-  }
+  > ul > li > a{ 
+    @extend .text-white; 
 
-    a.active{
-      @extend .text-secondary;
-    }
+    &.active{ @extend .text-secondary; }
+  
+  }
 }
 
 #secondary-navigation{
@@ -105,17 +104,13 @@ h5, .h5
 
   > ul > li{
     @extend .position-relative;
-    @extend .ml-3;
+    @extend .ml-4;
   }
+
   > ul > li > a{
     @extend .f-secondary;
     @extend .fs-lg;
     @extend .d-flex;
-    // @extend .no-link-style;
-
-  }
-
-  > ul > li > a {
     @extend .align-self-center;
   }
 
@@ -127,8 +122,9 @@ h5, .h5
     @extend .position-absolute;
     @extend .list-unstyled;
     @extend .rounded;
-    @extend .p-2;
-    @extend .mt-2;
+    @extend .p-3;
+    @extend .mt-1;
+    @extend .bg-secondary;
 
     background: $yellow;
     top: 100%;
