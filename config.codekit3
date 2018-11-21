@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/.htaccess",
-		"oF": 0
-		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4664,13 +4657,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/wp-comments-post.php",
-		"oF": 0
-		},
-	"/wp-config-sample.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-config-sample.php",
 		"oF": 0
 		},
 	"/wp-config.php": {
