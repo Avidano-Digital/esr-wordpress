@@ -17,7 +17,7 @@
     <li>
         <a href="https://www.facebook.com/EndangeredSpeciesRevenge" target="blank" title="Facebook">
             <span class="sr-only">Facebook</span>
-            <span class="fab fa-facebook"></span>
+            <span class="fab fa-facebook-f"></span>
         </a>
     </li>
     <li>
