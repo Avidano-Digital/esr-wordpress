@@ -159,17 +159,15 @@ h5, .h5
   }
 }
 
-// #mobile-menu{ }
-
 button[data-toggle="collapse"]{
     @extend .border-0;
     @extend .no-btn-style;
 }
 
 button[data-target="#mobile-menu"]{
-  width:130px;
-  height:40px;
-  display: block;
+  width: 130px;
+  height: 40px;
+  @extend .btn;
   @include apply-background-image('btn-explore', '.svg');
   @include border-radius($border-radius);
 
@@ -178,10 +176,11 @@ button[data-target="#mobile-menu"]{
   }
 }
 
-div#wrap-toggle{
-    @extend .offset-gutter-x;
+#wrap-toggle{
     @include media-breakpoint-down(xs){
-        background: theme-color("secondary");
+      background: theme-color("secondary");
+      margin-left: -($grid-gutter-width/2);
+      margin-right: -($grid-gutter-width/2);
     }
 }
 
