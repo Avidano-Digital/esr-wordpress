@@ -65,7 +65,19 @@
 
                         <div class="d-none d-xl-block">
 
-                            goodbye johnnie!!!
+                            <div id="secondary-navigation" class="nav justify-content-end">
+                                <a class="nav-item nav-link <a <?php if($slug == 'smyke' ) : ?> active <?php endif; ?>" href="/smyke"><strong>Smyke</strong></a>
+                                <a class="nav-item nav-link <?php if($slug == 'carbonita' ) : ?> active <?php endif; ?>" href="/carbonita"><strong>Carbonita</strong></a>
+                                <a class="nav-item nav-link" href="https://www.instagram.com/esrevenge/" target="blank" title="Instagram"><span class="fab fa-instagram"></span></a>
+                                <a class="nav-item nav-link" href="https://twitter.com/E_S_Revenge?lang=en" target="blank" title="Twitter"><span class="fab fa-twitter"></span></a>
+                                <a class="nav-item nav-link" href="https://www.facebook.com/EndangeredSpeciesRevenge" target="blank" title="Facebook"><span class="fab fa-facebook-f"></span></a>
+                                <a class="nav-item nav-link" href="https://www.youtube.com/channel/UCJWxTWqtD3w0839QsDDC8UQ" target="blank" title="Youtube"><span class="fab fa-youtube"></span></a>
+                                <a class="nav-item nav-link" href="https://www.linkedin.com/company/endangered-species-revenge-" target="blank" title="LinkedIn"><span class="fab fa-linkedin-in"></span></a>
+                            </div>
+
+                            <nav id="primary-navigation-desktop">
+                                <?php include('include/primary-navigation.php');?>
+                            </nav>
 
                         </div>
                         <!-- .d-none  -->

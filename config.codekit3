@@ -7334,6 +7334,13 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/wp-content/themes/esr_twentynineteen/include/primary-navigation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/include/primary-navigation.php",
+		"oF": 0
+		},
 	"/wp-content/themes/esr_twentynineteen/index.php": {
 		"cB": 0,
 		"ft": 8192,
