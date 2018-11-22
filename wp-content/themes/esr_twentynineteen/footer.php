@@ -1,10 +1,44 @@
 <footer>
 
-<!-- Optional sub-footer goes here -->
+    <section class="container-fluid bg-primary py-6" id="newsletter">
 
+        <div class="narrow">
 
-            <?php include('include/all-links.php');?>
-<!-- #business-footer -->
+            <form class="sib_signup_form" method="post">
+
+                <div class="sib_loader" style="display:none;">
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                
+                <input type="hidden" name="sib_form_action" value="subscribe_form_submit">
+                <input type="hidden" name="sib_form_id" value="1">
+                <input type="hidden" name="sib_form_alert_notice" value="">
+                <div class="sib_signup_box_inside_1">
+
+                    <h2 class="h3 text-center text-white mb-4">Join Our Newsletter</h2>
+
+                    <div class="input-group">
+
+                        <input type="email" class="form-control form-control-lg border-white sib-email-area" name="email" placeholder="Add your email" required="required">
+
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-lg btn-secondary text-primary">
+                                <span class="fas fa-plus"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- .sib_signup_box_inside_1 -->
+
+            </form>
+
+        </div>
+        <!-- .narrow -->
+
+    </section>
+
+    <?php include('include/all-links.php');?>
 
 <div class="container-fluid bg-white fs-md py-3" id="end">
 

@@ -3,7 +3,7 @@ Contributors: TigrouMeow, amekusa
 Tags: rename, file, files, media, manager, image, renamer, wpml, optimization, seo, retina, gutenberg
 Requires at least: 4.8
 Tested up to: 5.0
-Stable tag: 4.4.0
+Stable tag: 4.4.3
 
 Automatically rename files depending on Media titles dynamically + update links. Pro version has many more options. Check the description :)
 
@@ -46,6 +46,9 @@ Check the FAQ on the official website, [here](https://meowapps.com/media-file-re
 5. Options for the automatic renaming (there are more options than just this).
 
 == Changelog ==
+
+= 4.4.3 =
+* Fix: Issue with updating the ALT field.
 
 = 4.4.0 =
 * Update: Compatibility with WP 5.0.
