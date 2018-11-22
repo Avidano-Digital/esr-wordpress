@@ -29,6 +29,44 @@
             </h1>
           </div>
 
+
+
+
+              <?php if( have_rows('featured_panels') ): ?>
+
+                <div class="row matrix-border">
+
+                <?php while( have_rows('featured_panels') ): the_row(); 
+
+                  // vars
+                  $image_thumbnail = get_sub_field('image_thumbnail');
+                  $title = get_sub_field('title');
+                  $link = get_sub_field('link');
+
+                  ?>
+
+                <div class="col-6">
+
+                    <img src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt'] ?>" />
+                    <?php echo $title; ?>
+                </div>
+                <!-- .col -->
+                <?php endwhile; ?>
+
+
+                </div>
+                <!-- .row -->
+
+              <?php endif; ?>
+
+
+
+
+
+
+
+
+
           <div class="row matrix-border">
 
             <?php $i=1; while( $i <= 6) : ?>
@@ -43,11 +81,6 @@
             <!-- .col -->
 
             <?php $i++; endwhile; ?>
-
-            <div class="col-6">
-
-            </div>
-            <!-- .col -->
 
           </div>
           <!-- .row -->

@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.htaccess",
+		"oF": 0
+		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -14062,6 +14069,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail-320x145.jpg": {
+		"ft": 16384,
+		"iS": 13161,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail-320x145.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 243685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/uploads/2018/11/site-icon-150x150.png": {
