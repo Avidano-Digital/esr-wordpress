@@ -29,35 +29,56 @@
             </h1>
           </div>
 
+          <?php if( have_rows('featured_panels') ): ?>
 
+            <div class="row matrix-border">
 
+            <?php while( have_rows('featured_panels') ): the_row(); 
 
-              <?php if( have_rows('featured_panels') ): ?>
+              // vars
+              $type = get_sub_field('type');
 
-                <div class="row matrix-border">
+              $image_thumbnail = get_sub_field('image_thumbnail');
+              $image_character = get_sub_field('image_character');
+              
+              $title = get_sub_field('title');
+              $link = get_sub_field('link');
 
-                <?php while( have_rows('featured_panels') ): the_row(); 
+              ?>
 
-                  // vars
-                  $image_thumbnail = get_sub_field('image_thumbnail');
-                  $title = get_sub_field('title');
-                  $link = get_sub_field('link');
+            <div class="col-md-6">
 
-                  ?>
+              <p class="text-danger d-none"><?php echo $type; ?></p>
 
-                <div class="col-6">
+              <a href="#" class="no-btn-style <?php if( $type == 'Project' ) : ?>project-link<?php endif; ?>">
+                
+                <?php if( !empty($image_character) ) :?>
+                  <div class="character"><img src="<?php echo $img_character['url']; ?>" alt="<?php echo $img_character['alt']; ?>"></div>
+                <?php endif; ?>
+                  
+                <?php if( !empty($image_thumbnail) ) : ?>
+                  <?php if( $type == 'Project' ) :?>
+                    <div class="overlay-gradient-y-black">
+                      <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
+                    </div>
+                  <?php else : ?>
+                  <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
+                  <?php endif; ?>
+                <?php endif; ?>
 
-                    <img src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt'] ?>" />
-                    <?php echo $title; ?>
-                </div>
-                <!-- .col -->
-                <?php endwhile; ?>
+                <div class="title p-2 <?php echo $color; ?> bg-danger"><h2 class="h4 text-white"><?php echo $title; ?><span class="fas fa-angle-right ml-1"></span></h2></div>
+                
+              </a>
 
+            </div>
+            <!-- .col -->
 
-                </div>
-                <!-- .row -->
+            <?php endwhile; /* featured_panels */ ?>
 
-              <?php endif; ?>
+            </div>
+            <!-- .row -->
+
+          <?php endif; ?>
 
 
 
@@ -69,7 +90,7 @@
 
           <div class="row matrix-border">
 
-            <?php $i=1; while( $i <= 6) : ?>
+            <?php $i=1; while( $i <= 4) : ?>
 
             <div class="col-6">
 
