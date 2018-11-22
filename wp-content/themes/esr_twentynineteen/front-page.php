@@ -16,14 +16,17 @@
 
   <main id="content">
 
-    <section class="py-7 bg-danger" id="introduction">
+    <section class="py-7" id="introduction">
 
       <div class="container-fluid wide">
 
-        <div class="mb-5" id="featured-projects">
+        <div class="mb-7" id="featured-projects">
         
-          <div class="narrow mb-5">
-            <h1 class="display-4 text-center">We help the world’s greatest scientists save endangered animals</h1>
+          <div class="mb-5">
+            <h1 class="display-4 text-center">
+              <span class="d-lg-block">We help the world’s greatest scientists</span>
+              <span class="d-lg-block">save endangered animals</span>
+            </h1>
           </div>
 
           <div class="row matrix-border">
@@ -87,6 +90,8 @@
 
     </section>
     <!-- #introduction -->
+
+    <?php include('include/artifacts.php'); ?>
 
   </main>
   <!-- #content -->

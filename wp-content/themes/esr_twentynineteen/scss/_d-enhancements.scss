@@ -283,6 +283,27 @@ section > ul{
 
 .btn{ white-space: normal !important; }
 
+
+
+////////////////////////////////////////
+// Blockquotes
+////////////////////////////////////////
+
+blockquote{
+  @extend .blockquote;
+
+  > p{ @extend .fs-xl; }
+
+  .blockquote-footer {
+    color: currentColor;
+    @extend .fs-rg;
+    
+
+    cite{ @extend .d-block; }
+  }
+
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 //
 // Supplementary classes 

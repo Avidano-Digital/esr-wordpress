@@ -317,7 +317,7 @@ $modal-header-border-color: $border-color;
 
 // Border width
 
-$border-width: 1px;
+$border-width: 2px;
 
 // Enable Rounded
 
@@ -398,7 +398,7 @@ $custom-control-gutter: ($custom-control-indicator-size * 1.5);
 
 // Modals 
 
-$modal-backdrop-bg: $white;
+$modal-backdrop-bg: $black;
 $modal-backdrop-opacity: 0.95;
 $modal-content-border-color: rgba($black, .2);
 

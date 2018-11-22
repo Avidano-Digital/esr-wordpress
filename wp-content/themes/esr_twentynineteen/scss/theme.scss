@@ -160,17 +160,18 @@ h5, .h5
   }
 }
 
-button[data-toggle="collapse"]{
-    @extend .border-0;
-    @extend .no-btn-style;
-}
+button#toggle-device-menu{
 
-button[data-target="#mobile-menu"]{
+  @extend .border-0;
+  @extend .no-btn-style;
+
   width: 130px;
   height: 40px;
   @extend .btn;
+  
   @include apply-background-image('btn-explore', '.svg');
-  @include border-radius($border-radius);
+  
+  border-radius: $border-radius;
 
   &[aria-expanded="true"]{
     background-position: 0 -40px;
@@ -197,4 +198,15 @@ button[data-target="#mobile-menu"]{
     }
   
   }
+}
+
+// All Links 
+
+.all-links{
+  ul > li{
+    > a{ @extend .text-body; }
+    &.h4{
+      > a{ @extend .text-primary; }
+    }
+  } 
 }

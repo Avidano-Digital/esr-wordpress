@@ -368,7 +368,7 @@ $featured-panel: true;
 // with equal spacing on all sides, not just the gutters 
 
 $matrix-border-padding: ($border-width / 2);
-$matrix-gutter-padding: ($grid-gutter-width / 4);
+$matrix-gutter-padding: ($grid-gutter-width / 2);
 
 .matrix-border{
   margin-top: -($matrix-border-padding);
@@ -751,22 +751,17 @@ $carousel: true;
 %enlarge{
 
   a{
-    position: relative;
-    display: block;
-
-    &:focus{
-      > span{ @extend .bg-primary;}
-    }
+    @extend .position-relative;
+    @extend .d-block;
+    @extend .text-white;
 
     > span{ 
       position: absolute;
       bottom: 0;
       right: 0;
 
-      color: white;
-      @extend .p-2;
-      @extend .m-2;
-      @extend .rounded;
+      color: currentColor;
+      @extend .m-1;
     }
   }
 }

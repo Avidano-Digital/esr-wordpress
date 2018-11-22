@@ -54,14 +54,17 @@
                         <div class="d-xl-none py-1" id="wrap-toggle">
 
                             <button class="align-self-center ml-auto"
+                                id="toggle-device-menu"
                                 data-toggle="collapse" 
-                                data-target="#mobile-menu" 
+                                data-target="#device-menu" 
                                 aria-expanded="false" 
-                                aria-controls="mobile-menu"
+                                aria-controls="device-menu"
                                 type="button">
                                 <span class="sr-only">Toggle Menu</span>
                             </button>
+
                         </div>
+                        <!-- #wrap-toggle -->
 
                         <div class="d-none d-xl-block">
 
@@ -88,98 +91,9 @@
         </div>
         <!-- .wrap-header -->
 
-        <div id="device-menu" class="primary-navigation-device collapse d-lg-none">
+        <div id="device-menu" class="primary-navigation-device collapse d-xl-none">
 
-            <hr>
-
-            <nav class="nav d-flex flex-column py-3" role="navigation">
-
-                <div class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle" href="#" id="nav-item-01-b" data-toggle="dropdown"
-                        aria-expanded="false" title="Nav Item">
-                        Nav Item
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="nav-item-01-b">
-
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-
-                    </div>
-
-                </div>
-
-                <div class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle" href="#" id="nav-item-02-b" data-toggle="dropdown"
-                        aria-expanded="false" title="Nav Item">
-                        Nav Item
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="nav-item-02-b">
-
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-
-                    </div>
-
-                </div>
-
-                <div class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle" href="#" id="nav-item-03-b" data-toggle="dropdown"
-                        aria-expanded="false" title="Nav Item">
-                        Nav Item
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="nav-item-04-b">
-
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-
-                    </div>
-
-                </div>
-
-                <div class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle" href="#" id="nav-item-04-b" data-toggle="dropdown"
-                        aria-expanded="false" title="Nav Item">
-                        Nav Item
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="nav-item-04-b">
-
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-
-                    </div>
-
-                </div>
-
-                <div class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle" href="#" id="nav-item-05-b" data-toggle="dropdown"
-                        aria-expanded="false" title="Nav Item">
-                        Nav Item
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="nav-item-05-b">
-
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-                        <a class="dropdown-item" href="#" title="Link">Link</a>
-
-                    </div>
-
-                </div>
-
-            </nav>
+            <?php include('include/all-links.php');?>
 
         </div>
 
