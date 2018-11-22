@@ -16,7 +16,7 @@
         </div>
         <!-- .narrow -->
 
-        <div class="row matrix-border gallery mb-4">
+        <div class="row matrix-border gallery mb-sm-4">
 
             <div class="col-6 col-lg-3">
                 <a href="#" data-toggle="modal" data-target="#green-stone-falcon-headed-crocodile">
