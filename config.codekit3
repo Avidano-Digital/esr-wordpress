@@ -10940,6 +10940,16 @@
 		"oAP": "/wp-content/plugins/media-file-renamer/views/menu-screen.php",
 		"oF": 0
 		},
+	"/wp-content/plugins/safe-svg/assets/safe-svg-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/safe-svg/assets/safe-svg-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/wp-content/plugins/safe-svg/assets/safe-svg.css": {
 		"aP": 1,
 		"bl": 0,
@@ -13407,6 +13417,13 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/lib/theme-support.php",
 		"oF": 0
 		},
+	"/wp-content/themes/esr_twentynineteen/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/page.php",
+		"oF": 0
+		},
 	"/wp-content/themes/esr_twentynineteen/screenshot.png": {
 		"ft": 32768,
 		"iS": 365898,
@@ -13537,11 +13554,51 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/11/endangered-species-revenge-carbonita-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/endangered-species-revenge-carbonita-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/uploads/2018/11/endangered-species-revenge-cleopatra-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/endangered-species-revenge-cleopatra-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/wp-content/uploads/2018/11/endangered-species-revenge-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/uploads/2018/11/endangered-species-revenge-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/uploads/2018/11/endangered-species-revenge-olivia-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/endangered-species-revenge-olivia-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/uploads/2018/11/endangered-species-revenge-picasso-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/endangered-species-revenge-picasso-square.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -13624,34 +13681,56 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail-320x145.jpg": {
+	"/wp-content/uploads/2018/11/esr-video-african-painted-dogs-thumbnail-320x180.jpg": {
 		"ft": 16384,
-		"iS": 13161,
+		"iS": 15685,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail-320x145.jpg",
+		"oAP": "/wp-content/uploads/2018/11/esr-video-african-painted-dogs-thumbnail-320x180.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail.jpg": {
+	"/wp-content/uploads/2018/11/esr-video-african-painted-dogs-thumbnail.jpg": {
 		"ft": 16384,
-		"iS": 243685,
+		"iS": 182505,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/11/esr-video-african-painted-dog-thumbnail.jpg",
+		"oAP": "/wp-content/uploads/2018/11/esr-video-african-painted-dogs-thumbnail.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/11/esr-video-cheetah-conservation-fund-thumbnail-320x145.jpg": {
+	"/wp-content/uploads/2018/11/esr-video-carbonita-thumbnail-320x180.jpg": {
 		"ft": 16384,
-		"iS": 19399,
+		"iS": 15857,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/11/esr-video-cheetah-conservation-fund-thumbnail-320x145.jpg",
+		"oAP": "/wp-content/uploads/2018/11/esr-video-carbonita-thumbnail-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-carbonita-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 141533,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-carbonita-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-cheetah-conservation-fund-thumbnail-320x180.jpg": {
+		"ft": 16384,
+		"iS": 23920,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-cheetah-conservation-fund-thumbnail-320x180.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13659,10 +13738,76 @@
 		},
 	"/wp-content/uploads/2018/11/esr-video-cheetah-conservation-fund-thumbnail.jpg": {
 		"ft": 16384,
-		"iS": 353278,
+		"iS": 295029,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/11/esr-video-cheetah-conservation-fund-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-coral-climate-change-thumbnail-320x180.jpg": {
+		"ft": 16384,
+		"iS": 25525,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-coral-climate-change-thumbnail-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-coral-climate-change-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 343131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-coral-climate-change-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-pink-dolphin-rescue-thumbnail-320x180.jpg": {
+		"ft": 16384,
+		"iS": 18958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-pink-dolphin-rescue-thumbnail-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-pink-dolphin-rescue-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 255270,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-pink-dolphin-rescue-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-smyke-thumbnail-320x180.jpg": {
+		"ft": 16384,
+		"iS": 10351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-smyke-thumbnail-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/esr-video-smyke-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 86015,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/esr-video-smyke-thumbnail.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

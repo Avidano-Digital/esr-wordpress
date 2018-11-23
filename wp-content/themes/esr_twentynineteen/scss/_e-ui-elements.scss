@@ -44,7 +44,9 @@ $gradients: true;
 @if($gradients){
 
   [class*="overlay-gradient-"]{
-    position: relative; 
+    @extend .position-relative;
+    overflow: hidden;
+
   
     &::before {
       content: "\00a0";
@@ -52,7 +54,7 @@ $gradients: true;
       @extend .h-100;
       @extend .w-100;
       left:0;
-      right: 0;
+      bottom:-1px;
     }
   }
 
@@ -96,7 +98,7 @@ $gradients: true;
 
 @mixin featured-panel-responsive-settings(){
   [class*="overlay-gradient"]::before{ display: none; }
-  .card-img-overlay{ position: relative; }
+  .card-img-overlay{ position: static; }
   .text-shadow{ text-shadow: none; }
   [class*="border"]{ border: none !important; }
   [class*="shadow"]{ box-shadow: none !important; }
@@ -121,6 +123,14 @@ $featured-panel: true;
     }
     
     .card-img-overlay{ @extend .px-0; }
+
+    .character{
+      @extend .position-absolute;
+      @extend .z-index-900;
+      bottom: 0;
+      right: 0;
+      width: 240px;
+    }
 
     @each $breakpoint in map-keys($grid-breakpoints) {
       $next: breakpoint-next($breakpoint, $grid-breakpoints);

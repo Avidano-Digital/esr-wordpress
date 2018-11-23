@@ -1,3 +1,5 @@
+<?php  $slug = basename( get_permalink()); ?>
+
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">

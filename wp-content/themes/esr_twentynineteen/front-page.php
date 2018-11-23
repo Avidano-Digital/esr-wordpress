@@ -37,6 +37,7 @@
 
               // vars
               $type = get_sub_field('type');
+              $class_name = get_sub_field('class_name');
 
               $image_thumbnail = get_sub_field('image_thumbnail');
               $image_character = get_sub_field('image_character');
@@ -46,32 +47,32 @@
 
               ?>
 
-            <div class="col-md-6">
+              <div class="col-md-6">
 
-              <p class="text-danger d-none"><?php echo $type; ?></p>
-
-              <a href="#" class="no-btn-style <?php if( $type == 'Project' ) : ?>project-link<?php endif; ?>">
-                
-                <?php if( !empty($image_character) ) :?>
-                  <div class="character"><img src="<?php echo $img_character['url']; ?>" alt="<?php echo $img_character['alt']; ?>"></div>
-                <?php endif; ?>
+                <a href="#" class="featured-tile <?php if( $type == 'Project' ) : ?>project<?php endif; ?> <?php if( !empty($class_name) ) echo $class_name ?>">
                   
-                <?php if( !empty($image_thumbnail) ) : ?>
-                  <?php if( $type == 'Project' ) :?>
-                    <div class="overlay-gradient-y-black">
-                      <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
-                    </div>
-                  <?php else : ?>
-                  <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
+                  <?php if( !empty($image_character) ) :?>
+                    <div class="character"><img src="<?php echo $image_character['url']; ?>" alt="<?php echo $image_character['alt']; ?>"></div>
                   <?php endif; ?>
-                <?php endif; ?>
+                    
+                  <?php if( !empty($image_thumbnail) ) : ?>
+                    <?php if( $type == 'Project' ) :?>
+                      <div class="overlay-gradient-y-black">
+                        <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
+                      </div>
+                    <?php else : ?>
+                    <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
+                    <?php endif; ?>
+                  <?php endif; ?>
 
-                <div class="title p-2 <?php echo $color; ?> bg-danger"><h2 class="h4 text-white"><?php echo $title; ?><span class="fas fa-angle-right ml-1"></span></h2></div>
-                
-              </a>
+                  <div class="title p-2 <?php echo $color; ?>">
+                    <h2 class="h4 text-white"><?php echo $title; ?></h2>
+                  </div>
+                  
+                </a>
 
-            </div>
-            <!-- .col -->
+              </div>
+              <!-- .col -->
 
             <?php endwhile; /* featured_panels */ ?>
 
@@ -80,15 +81,7 @@
 
           <?php endif; ?>
 
-
-
-
-
-
-
-
-
-          <div class="row matrix-border">
+          <div class="row matrix-border d-none">
 
             <?php $i=1; while( $i <= 4) : ?>
 

@@ -60,14 +60,8 @@ h5, .h5
 { @extend .fw-regular; }
 
 ////////////////////////////////////////
-// Navigation
+// Global Navigation
 ////////////////////////////////////////
-
-////////////////////////
-//                    //
-// Primary navigation //
-//                    //
-////////////////////////
 
 #secondary-navigation,
 #primary-navigation-desktop{
@@ -210,3 +204,52 @@ button#toggle-device-menu{
     }
   } 
 }
+
+
+////////////////////////////////////////
+// Featured Panel
+////////////////////////////////////////
+
+.featured-tile{
+  @extend .no-btn-style;
+
+  .title{ background: black; }
+
+  &.project{
+    @extend .position-relative; 
+    @extend .d-block;
+    overflow: hidden;
+
+    .gradient-overlay{ z-index: 100; }
+
+    .title{ 
+      @extend .position-relative;
+      z-index: 200; 
+      background: black;
+    }
+    
+    .character{ 
+      max-width: 60%;
+      position: absolute;
+      top: 0;
+      z-index: 150;
+      right: 0.25rem;
+    }
+
+    &.african-painted-dog .title{ background: $african-painted-dog; }
+    &.cheetah .title{ background: $cheetah; }
+    &.pink-dolphin .title{ background: $pink-dolphin; }
+    &.coral-climate-change .title{ background: $coral-climate-change; }
+
+    @include media-breakpoint-up(lg){
+  
+      .character{
+        max-width: 40%;
+        z-index: 1500;
+        top: auto;
+        bottom: 1rem;
+      }
+    }
+
+  }
+} // featured-panel

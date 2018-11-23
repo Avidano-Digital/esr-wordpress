@@ -251,8 +251,6 @@ $cheetah: #c37537;
 $pink-dolphin: #bf5689;
 $coral-climate-change: #d34d49;
 
-
-
 $primary: $esr-green;
 $secondary: $esr-yellow;
 $tertiary: $park-green;
@@ -261,12 +259,13 @@ $tertiary: $crimson;
 $light: #e6ecf7;
 
 $theme-colors: (
+
   "white": $white,
   "black": $black,
 
   "primary": $primary, 
-  "secondary": $secondary, 
-  "tertiary": $tertiary, 
+  "secondary": $secondary,
+    
 );
 
 ////////////////////////////////////////
@@ -317,7 +316,7 @@ $modal-header-border-color: $border-color;
 
 // Border width
 
-$border-width: 2px;
+$border-width: 1px;
 
 // Enable Rounded
 
@@ -421,5 +420,3 @@ $carousel-caption-width: 100%;
 ////////////////////////////////////////
 
 $figure-caption-font-size: $fs-md;
-
-$popover-border-color: transparent;
