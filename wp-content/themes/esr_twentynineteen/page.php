@@ -36,17 +36,20 @@ get_header(); ?>
 
           <section class="featured-panel responsive-xl border-bottom border-white">
 
-            <div class="card <?php if( !empty($class_name) ) echo $class_name ?> bg-black">
+            <div class="card <?php if( !empty($class_name) ) echo $class_name ?>">
 
               <?php if( !empty($image) ) : ?>
-                <img class="card-img opacity-40 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+
+                <div class="overlay-gradient-y-blacky">
+                  <img class="card-img opacity-20 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+                </div>
               <?php endif; ?>
             
               <div class="card-img-overlay d-flex">
                 <div class="container align-self-center">
-                  <div class="narrow text-white text-center">            
-                    <h2 class="card-title text-shadow"><?php echo $headline; ?></h2>
-                    <p class="fs-lg text-shadow">
+                  <div class="narrow text-white text-center py-4">            
+                    <h2 class="h1 card-title"><?php echo $headline; ?></h2>
+                    <p class="fs-lg">
                       African poachers hide thousands of deadly snares every day to catch antelope – but beautiful, endangered painted dogs suffer horrible deaths when they are caught by these snares instead.
                     </p>
                     <a class="btn btn-lg btn-secondary text-primary rounded" href="#" title="<?php echo $link['title']; ?>"><?php echo $link['title']; ?></a>
