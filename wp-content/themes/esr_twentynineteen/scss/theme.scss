@@ -205,7 +205,6 @@ button#toggle-device-menu{
   } 
 }
 
-
 ////////////////////////////////////////
 // Featured Panel
 ////////////////////////////////////////
@@ -236,10 +235,6 @@ button#toggle-device-menu{
       right: 0.25rem;
     }
 
-    &.african-painted-dog .title{ background: $african-painted-dog; }
-    &.cheetah .title{ background: $cheetah; }
-    &.pink-dolphin .title{ background: $pink-dolphin; }
-    &.coral-climate-change .title{ background: $coral-climate-change; }
 
     @include media-breakpoint-up(lg){
   
@@ -253,3 +248,18 @@ button#toggle-device-menu{
 
   }
 } // featured-panel
+
+
+.featured-tile.project{
+  &.african-painted-dog .title{ background: $african-painted-dog; }
+  &.cheetah .title{ background: $cheetah; }
+  &.pink-dolphin .title{ background: $pink-dolphin; }
+  &.coral-climate-change .title{ background: $coral-climate-change; }
+}
+
+.card{
+  &.african-painted-dog{ background: $african-painted-dog; }
+  &.cheetah{ background: $cheetah; }
+  &.pink-dolphin{ background: $pink-dolphin; }
+  &.coral-climate-change{ background: $coral-climate-change; }
+}

@@ -58,14 +58,14 @@
                   <?php if( !empty($image_thumbnail) ) : ?>
                     <?php if( $type == 'Project' ) :?>
                       <div class="overlay-gradient-y-black">
-                        <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
+                        <img src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
                       </div>
                     <?php else : ?>
                     <img class="img-fluid" src="<?php echo $image_thumbnail['url']; ?>" alt="<?php echo $image_thumbnail['alt']; ?>">
                     <?php endif; ?>
                   <?php endif; ?>
 
-                  <div class="title p-2 <?php echo $color; ?>">
+                  <div class="title p-2">
                     <h2 class="h4 text-white"><?php echo $title; ?></h2>
                   </div>
                   

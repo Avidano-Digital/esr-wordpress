@@ -20,27 +20,45 @@ get_header(); ?>
 
       <div class="container-fluid wide mb-7">
 
-        <section class="featured-panel responsive-xl border-bottom border-white">
+        <?php if( have_rows('conservation_project_summary') ): ?>
 
-          <div class="card" style="background-color: #7c3e42;">
+        <?php while( have_rows('conservation_project_summary') ): the_row(); 
+
+          // vars
+          $class_name = get_sub_field('class_name');
+
+          $image = get_sub_field('image');
           
-            <img class="card-img opacity-40 show-on-mobile" src="<?php echo get_template_directory_uri(); ?>/images/thumb-video-african-painted-dog.jpg" alt="Card image">
+          $headline = get_sub_field('headline');
+          $link = get_sub_field('link');
+
+          ?>
+
+          <section class="featured-panel responsive-xl border-bottom border-white">
+
+            <div class="card <?php if( !empty($class_name) ) echo $class_name ?> bg-black">
+
+              <?php if( !empty($image) ) : ?>
+                <img class="card-img opacity-40 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+              <?php endif; ?>
             
-            <div class="card-img-overlay d-flex">
-              <div class="container align-self-center">
-                <div class="narrow text-white text-center">            
-                  <h2 class="card-title text-shadow">Saving Painted Dogs From Deadly Snares!</h2>
-                  <p class="fs-lg text-shadow">
-                    African poachers hide thousands of deadly snares every day to catch antelope – but beautiful, endangered painted dogs suffer horrible deaths when they are caught by these snares instead.
-                  </p>
-                  <a class="btn btn-lg btn-secondary text-primary rounded" href="#" title="African Painted Dogs">African Painted Dogs</a>
+              <div class="card-img-overlay d-flex">
+                <div class="container align-self-center">
+                  <div class="narrow text-white text-center">            
+                    <h2 class="card-title text-shadow"><?php echo $headline; ?></h2>
+                    <p class="fs-lg text-shadow">
+                      African poachers hide thousands of deadly snares every day to catch antelope – but beautiful, endangered painted dogs suffer horrible deaths when they are caught by these snares instead.
+                    </p>
+                    <a class="btn btn-lg btn-secondary text-primary rounded" href="#" title="<?php echo $link['title']; ?>"><?php echo $link['title']; ?></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-        </section>
-        <!-- .featured-panel -->
+          </section>
+          <!-- .featured-panel -->
+
+        <?php endwhile; endif; /* conservation_project_summary */ ?>
 
     </div>
     <!-- .container-fluid -->
