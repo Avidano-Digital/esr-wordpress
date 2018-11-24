@@ -45,6 +45,70 @@
         remove_menu_page( 'edit-comments.php' );
     }
 
+
+
+    ////////////////////////////////////////
+    // Custom Post Types
+    ////////////////////////////////////////
+
+
+    add_action( 'init', __NAMESPACE__ . 'create_post_type' );
+
+    function create_post_type() {
+
+        register_post_type( 'Projects',
+            array(
+                'labels' => array(
+                'name' => __( 'Projects' ),
+                'singular_name' => __( 'Project' )
+            ),
+            'public' => true,
+            'rewrite' => array( 'slug' => 'projects'),
+            'has_archive' => false,
+            'menu_icon' => 'dashicons-admin-site'
+            )
+        );
+
+        register_post_type( 'Characters',
+            array(
+                'labels' => array(
+                'name' => __( 'Characters' ),
+                'singular_name' => __( 'Character' )
+            ),
+            'public' => true,
+            'rewrite' => array( 'slug' => 'characters'),
+            'menu_icon' => 'dashicons-groups'
+            )
+        );
+        
+        register_post_type( 'Videos',
+            array(
+                'labels' => array(
+                'name' => __( 'Videos' ),
+                'singular_name' => __( 'Video' )
+            ),
+            'public' => true,
+            'rewrite' => array( 'slug' => 'videos'),
+            'menu_icon' => 'dashicons-video-alt3'
+            )
+        );
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ////////////////////////////////////////
     // Custom Logo
     ////////////////////////////////////////

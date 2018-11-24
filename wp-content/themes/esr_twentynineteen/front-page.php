@@ -18,16 +18,16 @@
 
     <section class="py-7" id="introduction">
 
-      <div class="container-fluid wide">
+      <header class="mb-6">
+        <h1 class="display-4 text-center">
+          <span class="d-lg-block">We help the world’s greatest scientists</span>
+          <span class="d-lg-block">save endangered animals</span>
+        </h1>
+      </header>
+
+      <div class="container-fluid wide bg-danger">
 
         <div class="mb-7" id="featured-projects">
-        
-          <div class="mb-5">
-            <h1 class="display-4 text-center">
-              <span class="d-lg-block">We help the world’s greatest scientists</span>
-              <span class="d-lg-block">save endangered animals</span>
-            </h1>
-          </div>
 
           <?php if( have_rows('featured_panels') ): ?>
 
@@ -102,35 +102,53 @@
         </div>
         <!-- #featured-projects -->
 
-        <div id="featured-shorts">
+        <?php
+
+        // vars
+        $featured_video_group = get_field('featured_video_group');	
+
+        $headline = $featured_video_group['headline'];
+        $videos = $featured_video_group['videos'];
+
+        $post_objects = $videos;
+
+        if( $featured_video_group ): ?>
+
+        <div class="featured-videos bg-warning">
             
-          <h2 class="text-center mb-4">Painted Dog Shorts</h2>
+            <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
 
-          <div class="row matrix-border">
+            <div class="row matrix-border">
 
-            <?php $i=1; while( $i <= 3) : ?>
+            <?php
 
-            <div class="col-4">
+                if( $post_objects ) :
+                foreach($post_objects as $post) :
+                setup_postdata( $post ); 
 
-              <a href="#" class="project-link">
-                <img src="https://via.placeholder.com/800x400" alt="Placeholder">
-              </a>
+                $video_url = get_field('video_url');
+                $video_id = substr( strrchr( $video_url, '/' ), 1 );
+            ?>
+            
+            <div class="col-md-4">
+
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true"
+                    allowfullscreen="true"></iframe>
+                </div>
 
             </div>
             <!-- .col -->
 
-            <?php $i++; endwhile; ?>
-
-            <div class="col-6">
+            <?php endforeach; endif; wp_reset_postdata(); /* post_objects */?>
 
             </div>
-            <!-- .col -->
-
-          </div>
-          <!-- .row -->
+            <!-- .row -->
 
         </div>
-        <!-- #featured-shorts -->
+        <!-- .featured-videos -->
+
+        <?php endif; /* featured_video_group */ ?>
 
       </div>
       <!-- .container-fluid -->

@@ -13228,6 +13228,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog-alternate.jpg": {
+		"ft": 16384,
+		"iS": 162388,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog-alternate.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog.jpg": {
 		"ft": 16384,
 		"iS": 243685,
@@ -13536,6 +13547,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/wp-content/themes/esr_twentynineteen/template-parts/featured-videos.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/template-parts/featured-videos.php",
+		"oF": 0
+		},
 	"/wp-content/themes/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -13808,6 +13826,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/11/esr-video-smyke-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/thumb-video-african-painted-dog-alternate-320x180.jpg": {
+		"ft": 16384,
+		"iS": 15867,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/thumb-video-african-painted-dog-alternate-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/11/thumb-video-african-painted-dog-alternate.jpg": {
+		"ft": 16384,
+		"iS": 210761,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/11/thumb-video-african-painted-dog-alternate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

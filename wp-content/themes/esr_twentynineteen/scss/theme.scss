@@ -249,6 +249,9 @@ button#toggle-device-menu{
   }
 } // featured-panel
 
+////////////////////////////////////////
+// Project Colors
+////////////////////////////////////////
 
 .featured-tile.project{
   &.african-painted-dog .title{ background: $african-painted-dog; }
@@ -262,4 +265,17 @@ button#toggle-device-menu{
   &.cheetah{ background: $cheetah; }
   &.pink-dolphin{ background: $pink-dolphin; }
   &.coral-climate-change{ background: $coral-climate-change; }
+}
+
+
+////////////////////////////////////////
+// Whatever
+////////////////////////////////////////
+
+.mb-child-border{
+  > * {
+    margin-bottom: $border-width;
+    &:last-child{ @extend .mb-0; border: none;
+    }
+  }
 }
