@@ -13547,6 +13547,20 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/wp-content/themes/esr_twentynineteen/template-parts/featured-video-group.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/template-parts/featured-video-group.php",
+		"oF": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/template-parts/project-video-group.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/template-parts/project-video-group.php",
+		"oF": 0
+		},
 	"/wp-content/themes/index.php": {
 		"cB": 0,
 		"ft": 8192,

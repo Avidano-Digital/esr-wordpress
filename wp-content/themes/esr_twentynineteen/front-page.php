@@ -25,15 +25,15 @@
         </h1>
       </header>
 
-      <div class="container-fluid wide">
+      <div class="container-fluid wide bg-danger">
 
-        <div class="mb-7" id="featured-projects">
+        <div class="featured-tiles mb-7">
 
-          <?php if( have_rows('featured_panels') ): ?>
+          <?php if( have_rows('featured_tiles') ): ?>
 
             <div class="row matrix-border">
 
-            <?php while( have_rows('featured_panels') ): the_row(); 
+            <?php while( have_rows('featured_tiles') ): the_row(); 
 
               // vars
               $type = get_sub_field('type');
@@ -74,81 +74,17 @@
               </div>
               <!-- .col -->
 
-            <?php endwhile; /* featured_panels */ ?>
+            <?php endwhile; /* featured_tiles */ ?>
 
             </div>
             <!-- .row -->
 
           <?php endif; ?>
 
-          <div class="row matrix-border d-none">
-
-            <?php $i=1; while( $i <= 4) : ?>
-
-            <div class="col-6">
-
-              <a href="#" class="project-link">
-                <img src="https://via.placeholder.com/800x400" alt="Placeholder">
-              </a>
-
-            </div>
-            <!-- .col -->
-
-            <?php $i++; endwhile; ?>
-
-          </div>
-          <!-- .row -->
-
         </div>
-        <!-- #featured-projects -->
+        <!-- .featured-tiles -->
 
-        <?php
-
-        // vars
-        $featured_video_group = get_field('featured_video_group');	
-
-        $headline = $featured_video_group['headline'];
-        $videos = $featured_video_group['videos'];
-
-        $post_objects = $videos;
-
-        if( $featured_video_group ): ?>
-
-        <div class="featured-videos">
-            
-            <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
-
-            <div class="row matrix-border">
-
-            <?php
-
-                if( $post_objects ) :
-                foreach($post_objects as $post) :
-                setup_postdata( $post ); 
-
-                $video_url = get_field('video_url');
-                $video_id = substr( strrchr( $video_url, '/' ), 1 );
-            ?>
-            
-            <div class="col-md-4">
-
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true"
-                    allowfullscreen="true"></iframe>
-                </div>
-
-            </div>
-            <!-- .col -->
-
-            <?php endforeach; endif; wp_reset_postdata(); /* post_objects */?>
-
-            </div>
-            <!-- .row -->
-
-        </div>
-        <!-- .featured-videos -->
-
-        <?php endif; /* featured_video_group */ ?>
+        <?php get_template_part('template-parts/featured-video-group'); ?>
 
       </div>
       <!-- .container-fluid -->

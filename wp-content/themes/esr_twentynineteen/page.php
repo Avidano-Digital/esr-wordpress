@@ -16,102 +16,23 @@ get_header(); ?>
       </div>
     </header>
 
-    <?php
+    <!-- Videos -->
 
-    if( have_rows('esr_videos') ):
+    <div class="container-fluid wide bg-danger">
 
-    while ( have_rows('esr_videos') ) : the_row(); ?>
-
-    <div class="container-fluid wide">
-
-    <?php if( get_row_layout() == 'featured_video_block' ):
-              
-      // vars
-      $featured_video_group = get_sub_field( 'featured_video_group' );	
-
-      $headline = $featured_video_group['headline'];
-      $videos = $featured_video_group['videos'];
-
-      $post_objects = $videos;
-
-      if( $featured_video_group ): ?>
-
-      <div class="featured-videos">
-          
-          <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
-
-          <div class="row matrix-border">
-
-          <?php
-
-              if( $post_objects ) :
-              foreach($post_objects as $post) :
-              setup_postdata( $post ); 
-
-              $video_url = get_field('video_url');
-              $video_id = substr( strrchr( $video_url, '/' ), 1 );
-          ?>
-          
-          <div class="col-md-4">
-
-              <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true"
-                  allowfullscreen="true"></iframe>
-              </div>
-
-          </div>
-          <!-- .col -->
-
-          <?php endforeach; endif; wp_reset_postdata(); /* post_objects */?>
-
-          </div>
-          <!-- .row -->
-
+      <div class="mb-7">
+      
+      <?php get_template_part('template-parts/featured-video-group'); ?>
+      
       </div>
-      <!-- .featured-videos -->
-
-      <?php endif; /* featured_video_group */ ?>
+      <!-- .mb_7 -->
+      
+      <?php get_template_part('template-parts/project-video-group'); ?>
 
     </div>
     <!-- .container-fluid -->
 
-    <?php elseif( get_row_layout() == 'project_video_block' ):
-    
-      $file = get_sub_field( 'file' ); ?>
-      
-
-      SHIT
-
-
-      <?php endif; /* project-videos */ ?>
-          
-    <?php endwhile; /* featured_video_group */ ?>
-
-  <?php endif; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Conservation Projects -->
 
     <?php if( have_rows('conservation_project_summary') ): ?>
 
