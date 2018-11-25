@@ -45,12 +45,9 @@
         remove_menu_page( 'edit-comments.php' );
     }
 
-
-
     ////////////////////////////////////////
     // Custom Post Types
     ////////////////////////////////////////
-
 
     add_action( 'init', __NAMESPACE__ . 'create_post_type' );
 
@@ -62,6 +59,7 @@
                 'name' => __( 'Projects' ),
                 'singular_name' => __( 'Project' )
             ),
+
             'public' => true,
             'rewrite' => array( 'slug' => 'projects'),
             'has_archive' => false,
@@ -75,6 +73,7 @@
                 'name' => __( 'Characters' ),
                 'singular_name' => __( 'Character' )
             ),
+
             'public' => true,
             'rewrite' => array( 'slug' => 'characters'),
             'menu_icon' => 'dashicons-groups'
@@ -87,27 +86,13 @@
                 'name' => __( 'Videos' ),
                 'singular_name' => __( 'Video' )
             ),
+
             'public' => true,
             'rewrite' => array( 'slug' => 'videos'),
             'menu_icon' => 'dashicons-video-alt3'
             )
         );
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     ////////////////////////////////////////
     // Custom Logo

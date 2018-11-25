@@ -18,14 +18,14 @@
 
     <section class="py-7" id="introduction">
 
-      <header class="mb-6">
+      <header class="mb-5">
         <h1 class="display-4 text-center">
           <span class="d-lg-block">We help the world’s greatest scientists</span>
           <span class="d-lg-block">save endangered animals</span>
         </h1>
       </header>
 
-      <div class="container-fluid wide bg-danger">
+      <div class="container-fluid wide">
 
         <div class="mb-7" id="featured-projects">
 
@@ -114,7 +114,7 @@
 
         if( $featured_video_group ): ?>
 
-        <div class="featured-videos bg-warning">
+        <div class="featured-videos">
             
             <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
 

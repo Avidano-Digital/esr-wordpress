@@ -10,7 +10,7 @@ get_header(); ?>
 
   <section class="py-7">
 
-    <header class="mb-7">
+    <header class="mb-5">
       <div class="narrow text-center">
         <h1 class="display-4"><?php the_title(); ?></h1>
       </div>
@@ -18,74 +18,74 @@ get_header(); ?>
 
     <?php
 
-    // check if the flexible content field has rows of data
     if( have_rows('esr_videos') ):
 
-      // loop through the rows of data
-      while ( have_rows('esr_videos') ) : the_row(); ?>
+    while ( have_rows('esr_videos') ) : the_row(); ?>
 
-      <div class="container-fluid wide">
+    <div class="container-fluid wide">
 
-
-          <?php if( get_row_layout() == 'video_block' ):
-                  
-          // vars
-          $featured_video_group = get_sub_field('featured_video_group');	
-
-          $headline = $featured_video_group['headline'];
-          $videos = $featured_video_group['videos'];
-
-          $post_objects = $videos;
-
-          if( $featured_video_group ): ?>
-
-          <div class="featured-videos">
+    <?php if( get_row_layout() == 'featured_video_block' ):
               
-              <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
+      // vars
+      $featured_video_group = get_sub_field( 'featured_video_group' );	
 
-              <div class="row matrix-border">
+      $headline = $featured_video_group['headline'];
+      $videos = $featured_video_group['videos'];
 
-              <?php
+      $post_objects = $videos;
 
-                  if( $post_objects ) :
-                  foreach($post_objects as $post) :
-                  setup_postdata( $post ); 
+      if( $featured_video_group ): ?>
 
-                  $video_url = get_field('video_url');
-                  $video_id = substr( strrchr( $video_url, '/' ), 1 );
-              ?>
-              
-              <div class="col-md-4">
+      <div class="featured-videos">
+          
+          <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
 
-                  <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true"
-                      allowfullscreen="true"></iframe>
-                  </div>
+          <div class="row matrix-border">
 
+          <?php
+
+              if( $post_objects ) :
+              foreach($post_objects as $post) :
+              setup_postdata( $post ); 
+
+              $video_url = get_field('video_url');
+              $video_id = substr( strrchr( $video_url, '/' ), 1 );
+          ?>
+          
+          <div class="col-md-4">
+
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true"
+                  allowfullscreen="true"></iframe>
               </div>
-              <!-- .col -->
-
-              <?php endforeach; endif; wp_reset_postdata(); /* post_objects */?>
-
-              </div>
-              <!-- .row -->
 
           </div>
-          <!-- .featured-videos -->
+          <!-- .col -->
 
-          <?php endif; /* featured_video_group */ ?>
+          <?php endforeach; endif; wp_reset_postdata(); /* post_objects */?>
 
-          <p>HELLO!!!!!</p>
+          </div>
+          <!-- .row -->
 
       </div>
-      <!-- .container-fluid -->
+      <!-- .featured-videos -->
+
+      <?php endif; /* featured_video_group */ ?>
+
+    </div>
+    <!-- .container-fluid -->
+
+    <?php elseif( get_row_layout() == 'project_video_block' ):
+    
+      $file = get_sub_field( 'file' ); ?>
+      
+
+      SHIT
 
 
-          <?php elseif( get_row_layout() == 'download' ): 
-
-            $file = get_sub_field('file'); ?>
-
-          <?php endif; endwhile; ?>
+      <?php endif; /* project-videos */ ?>
+          
+    <?php endwhile; /* featured_video_group */ ?>
 
   <?php endif; ?>
 
