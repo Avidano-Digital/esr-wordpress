@@ -18,7 +18,7 @@ get_header(); ?>
 
     <!-- Videos -->
 
-    <div class="container-fluid wide bg-danger">
+    <div class="container-fluid wide">
 
       <div class="mb-7">
       

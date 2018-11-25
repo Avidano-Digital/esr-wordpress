@@ -21,6 +21,8 @@ if( $project_video_group ): ?>
 
         $video_url = get_field('video_url');
         $video_id = substr( strrchr( $video_url, '/' ), 1 );
+
+        $project_link = get_field('project_link');
     ?>
     
     <div class="col-md-6">
@@ -28,6 +30,14 @@ if( $project_video_group ): ?>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true" allowfullscreen="true"></iframe>
         </div>
+
+        <?php if ( !empty($project_link) ) : ?>
+
+        <div class="bg-black p-2">
+            <a class="h4 text-white no-link-style" href="<?php echo $project_link['url']; ?>" title="<?php echo $project_link['title']; ?>"><?php echo $project_link['title']; ?></a>
+        </div>
+
+        <?php endif; ?>
 
     </div>
     <!-- .col -->

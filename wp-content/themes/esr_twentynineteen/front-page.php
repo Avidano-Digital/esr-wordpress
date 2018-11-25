@@ -25,7 +25,7 @@
         </h1>
       </header>
 
-      <div class="container-fluid wide bg-danger">
+      <div class="container-fluid wide">
 
         <div class="featured-tiles mb-7">
 
