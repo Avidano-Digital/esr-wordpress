@@ -37,19 +37,19 @@
 
               // vars
               $type = get_sub_field('type');
-              $class_name = get_sub_field('class_name');
+              
 
               $image_thumbnail = get_sub_field('image_thumbnail');
               $image_character = get_sub_field('image_character');
               
-              $title = get_sub_field('title');
               $link = get_sub_field('link');
+              $class_name = get_sub_field('class_name');
 
               ?>
 
               <div class="col-md-6">
 
-                <a href="#" class="featured-tile <?php if( $type == 'Project' ) : ?>project<?php endif; ?> <?php if( !empty($class_name) ) echo $class_name ?>">
+                <a class="featured-tile <?php if( $type == 'Project' ) : ?>project<?php endif; ?> <?php if( !empty($class_name) ) echo $class_name ?>" href="<?php echo $link['url']; ?>" title="<?php echo $link['title']; ?>">
                   
                   <?php if( !empty($image_character) ) :?>
                     <div class="character"><img src="<?php echo $image_character['url']; ?>" alt="<?php echo $image_character['alt']; ?>"></div>
@@ -66,7 +66,7 @@
                   <?php endif; ?>
 
                   <div class="title p-2">
-                    <h2 class="h4 text-white"><?php echo $title; ?></h2>
+                    <h2 class="h4 text-white"><?php echo $link['title']; ?></h2>
                   </div>
                   
                 </a>
