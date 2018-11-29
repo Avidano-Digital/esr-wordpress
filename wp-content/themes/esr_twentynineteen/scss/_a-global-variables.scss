@@ -86,7 +86,7 @@ $container-max-widths: (
 
 $site-width: 2400px;
 $wide-width: $grid-bp-xxxl;     // 1600px
-$narrow-width: 65ch;            // 65 characters
+$narrow-width: 50ch;            // 65 characters
 $narrow-width-ie: $grid-bp-md;  // 65 characters
 
 ////////////////////////////////////////
@@ -119,7 +119,6 @@ $sizes: (
 // Reference: https://fontawesome.com/
 
 $font-awesome: 'Font Awesome 5 Free';
-
 
 ////////////////////////////////////////
 // Custom fonts and sizes

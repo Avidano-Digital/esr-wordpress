@@ -13333,6 +13333,13 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/include/secondary-navigation.php",
 		"oF": 0
 		},
+	"/wp-content/themes/esr_twentynineteen/include/video-block.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/include/video-block.php",
+		"oF": 0
+		},
 	"/wp-content/themes/esr_twentynineteen/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -13542,6 +13549,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/single-projects.php",
+		"oF": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/single.php",
 		"oF": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/style.css": {
