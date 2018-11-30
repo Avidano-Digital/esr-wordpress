@@ -267,7 +267,6 @@ button#toggle-device-menu{
   &.coral-climate-change{ background: $coral-climate-change; }
 }
 
-
 ////////////////////////////////////////
 // Whatever
 ////////////////////////////////////////
@@ -278,4 +277,250 @@ button#toggle-device-menu{
     &:last-child{ @extend .mb-0; border: none;
     }
   }
+}
+
+////////////////////////////////////////
+// Give Forms
+////////////////////////////////////////
+
+// Container
+
+#donate-block{ 
+  @include media-breakpoint-up(sm){
+    @include border-radius(2rem);
+  }
+}
+
+// Custom form styles
+
+$give-form: 'div[id*="give-form"]';
+
+#{$give-form}{
+
+  .give-icon-question, 
+  .give-hidden, 
+  .give-required-indicator,
+  .give-form-title
+  { @extend .d-none; }
+
+  // Initially hide the Give forms
+
+  &.give-display-reveal {
+    #give-payment-mode-select,
+    #give_purchase_form_wrap
+    { display: none; }
+  }
+
+  legend{ @extend .fw-black; }
+  fieldset{ @extend .form-group; }
+  label{ @extend .fs-md; }
+
+  // Buttons and inputs
+
+  button,
+  select,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  .give-btn
+  {  @extend .w-100; }
+
+  select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  #ffm-project_selected,
+  .give-select, 
+  .give-btn
+  { @extend .rounded-0; }
+
+  .give-btn{
+    @extend .btn;
+    @extend .btn-secondary;
+    @extend .text-primary;
+    @extend .btn-block;
+    @extend .btn-lg;
+
+    &.give-submit, 
+    &.give-default-level,
+    &.give-btn-reveal
+    {
+      @extend .text-white;
+      @extend .btn-primary;
+    }
+  }
+
+  select,
+  input,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  label
+  {
+    @extend .fs-rg;
+    @extend .font-weight-normal;
+  }
+
+  .give-amount-top,
+  .give-select,
+  #ffm-project_selected,
+  .give-input{
+    @extend .bg-white;
+    @extend .border-0;
+    @extend .p-2;
+  }
+
+  $image_url: '/wp-content/themes/endangered-species-revenge/images/';
+  .give-select,
+  #ffm-project_selected
+  {
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 40px 18px;
+    background-image:url($image_url + 'select-arrows.png');
+    background-image:url($image_url + 'select-arrows.svg'), none;
+    padding-right: 40px;
+  }
+
+  // Hide Placeholder
+
+  input.hide-placeholder {
+    &::-webkit-input-placeholder{ color: transparent; }
+    &::-moz-placeholder{ color: transparent; }
+    &:-moz-placeholder{ color: transparent; }
+    &:-ms-input-placeholder{ color: transparent; }
+  }
+  
+  // Rows and labels
+
+  div.give-form-content-wrap{ @extend .mb-4; }
+
+  .form-row{
+    @extend .d-block;
+    @extend .mx-0;
+
+    label{
+      @extend .px-2;
+
+      > sup{ font-size: 50%; }
+    }
+    
+    label,
+    input
+    { @extend .w-100; }
+
+  }
+
+  // Progress
+
+  div.give-goal-progress{
+    @extend .mb-4;
+
+    div.raised{
+      span.income{
+        font-size: 200%;
+        @extend .fw-black;
+      }
+    }
+
+  }
+
+  div.give-progress-bar,
+  div.give-progress-bar > span{
+    height:30px;
+  }
+
+  div.give-progress-bar{
+    background: $gray-400;
+  
+    span{
+      @extend .d-inline-block;
+      @extend .bg-primary;
+    }
+  }
+
+  .give-donation-amount{
+    @extend .bg-white;
+    @extend .mx-auto;
+    @extend .mb-4;
+    @extend .rounded;
+    @extend .shadow-sm;
+    overflow: hidden;
+
+    .give-currency-symbol{
+      @extend .ml-2;
+    }
+
+    .give-currency-symbol, 
+    .give-amount-top{
+      @extend .fw-black;
+    }
+ 
+    .give-amount-top{
+      max-width:200px;
+    }
+  }
+
+  .give-donation-levels-wrap{
+    @extend .list-unstyled;
+    @extend .offset-border-x;
+    @extend .mb-4;
+    overflow: hidden;
+
+    > li{
+      @extend .float-left;
+      border: $border-width solid transparent;
+      margin: 0;
+      width: 50%;
+    }
+
+    @include media-breakpoint-up(md){
+      > li{ width: 25%; }
+    }
+  }
+
+ #give-gateway-radio-list{
+    @extend .list-unstyled;
+  }
+
+#give-final-total-wrap{
+  @extend .fw-bold;
+  @extend .mb-3;
+font-style: italic;
+
+}
+
+.blockOverlay{ @extend .bg-light; }
+
+} // #{$give-form}
+
+////////////////
+//            //
+// Sendinblue //
+//            //
+////////////////
+
+form[id*="sib_signup_form_"]{
+  .sib-alert-message{
+    &.sib-alert-message-warning,
+    &.sib-alert-message-success{
+      @extend .alert;
+    }
+    &.sib-alert-message-warning{
+      @extend .alert-warning;
+    }
+    &.sib-alert-message-success{
+      @extend .alert-success;
+    }
+    &.sib-alert-message-danger{
+      @extend .alert-danger;
+    }
+  } 
+}
+
+#give_error_test_mode{
+  @extend .d-none;
 }

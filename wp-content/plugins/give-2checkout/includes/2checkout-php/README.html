@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="2checkoutphplibrary">2Checkout PHP Library</h1>
+
+<p>This library provides developers with a simple set of bindings to the 2Checkout Payment API, Hosted Checkout, Instant Notification Service and Admin API.</p>
+
+<p>To use, download or clone the repository.</p>
+
+<pre><code class="shell">git clone https://github.com/2Checkout/2checkout-php.git
+</code></pre>
+
+<p>Require in your php script.</p>
+
+<pre><code class="php">require_once(&quot;/path/to/2checkout-php/lib/Twocheckout.php&quot;);
+</code></pre>
+
+<p>All methods return an Array by default or you can set the format to &#8216;json&#8217; to get a JSON response.
+<strong>Example:</strong></p>
+
+<pre><code class="php">&lt;?php
+Twocheckout::format('json');
+</code></pre>
+
+<h2 id="credentialsandoptions">Credentials and Options</h2>
+
+<p>Methods are provided to set the following credentials and options.</p>
+
+<pre><code class="php">&lt;?php
+
+// Your sellerId(account number) and privateKey are required to make the Payment API Authorization call.
+Twocheckout::privateKey('BE632CB0-BB29-11E3-AFB6-D99C28100996');
+Twocheckout::sellerId('901248204');
+
+// Your username and password are required to make any Admin API call.
+Twocheckout::username('testlibraryapi901248204');
+Twocheckout::password('testlibraryapi901248204PASS');
+
+// If you want to turn off SSL verification (Please don't do this in your production environment)
+Twocheckout::verifySSL(false);  // this is set to true by default
+
+// To use your sandbox account set sandbox to true
+Twocheckout::sandbox(true);
+
+// All methods return an Array by default or you can set the format to 'json' to get a JSON response.
+Twocheckout::format('json');
+
+</code></pre>
+
+<p>Full documentation for each binding is provided in the <strong><a href="https://github.com/2Checkout/2checkout-php/wiki">wiki</a></strong>.</p>
+
+<h2 id="examplepaymentapiusage">Example Payment API Usage</h2>
+
+<p><em>Example Request:</em></p>
+
+<pre><code class="php">&lt;?php
+
+Twocheckout::privateKey('BE632CB0-BB29-11E3-AFB6-D99C28100996');
+Twocheckout::sellerId('901248204');
+
+try {
+    $charge = Twocheckout_Charge::auth(array(
+        &quot;sellerId&quot; =&gt; &quot;901248204&quot;,
+        &quot;merchantOrderId&quot; =&gt; &quot;123&quot;,
+        &quot;token&quot; =&gt; 'MjFiYzIzYjAtYjE4YS00ZmI0LTg4YzYtNDIzMTBlMjc0MDlk',
+        &quot;currency&quot; =&gt; 'USD',
+        &quot;total&quot; =&gt; '10.00',
+        &quot;billingAddr&quot; =&gt; array(
+            &quot;name&quot; =&gt; 'Testing Tester',
+            &quot;addrLine1&quot; =&gt; '123 Test St',
+            &quot;city&quot; =&gt; 'Columbus',
+            &quot;state&quot; =&gt; 'OH',
+            &quot;zipCode&quot; =&gt; '43123',
+            &quot;country&quot; =&gt; 'USA',
+            &quot;email&quot; =&gt; 'testingtester@2co.com',
+            &quot;phoneNumber&quot; =&gt; '555-555-5555'
+        ),
+        &quot;shippingAddr&quot; =&gt; array(
+            &quot;name&quot; =&gt; 'Testing Tester',
+            &quot;addrLine1&quot; =&gt; '123 Test St',
+            &quot;city&quot; =&gt; 'Columbus',
+            &quot;state&quot; =&gt; 'OH',
+            &quot;zipCode&quot; =&gt; '43123',
+            &quot;country&quot; =&gt; 'USA',
+            &quot;email&quot; =&gt; 'testingtester@2co.com',
+            &quot;phoneNumber&quot; =&gt; '555-555-5555'
+        )
+    ));
+    $this-&gt;assertEquals('APPROVED', $charge['response']['responseCode']);
+} catch (Twocheckout_Error $e) {
+    $this-&gt;assertEquals('Unauthorized', $e-&gt;getMessage());
+}
+</code></pre>
+
+<p><em>Example Response:</em></p>
+
+<pre><code class="php">Array
+(
+    [validationErrors] =&gt;
+    [exception] =&gt;
+    [response] =&gt; Array
+        (
+            [type] =&gt; AuthResponse
+            [lineItems] =&gt; Array
+                (
+                    [0] =&gt; Array
+                        (
+                            [options] =&gt; Array
+                                (
+                                )
+
+                            [price] =&gt; 10.00
+                            [quantity] =&gt; 1
+                            [recurrence] =&gt;
+                            [startupFee] =&gt;
+                            [productId] =&gt;
+                            [tangible] =&gt; N
+                            [name] =&gt; 123
+                            [type] =&gt; product
+                            [description] =&gt;
+                            [duration] =&gt;
+                        )
+
+                )
+
+            [transactionId] =&gt; 205181140830
+            [billingAddr] =&gt; Array
+                (
+                    [addrLine1] =&gt; 123 Test St
+                    [addrLine2] =&gt;
+                    [city] =&gt; Columbus
+                    [zipCode] =&gt; 43123
+                    [phoneNumber] =&gt; 555-555-5555
+                    [phoneExtension] =&gt;
+                    [email] =&gt; testingtester@2co.com
+                    [name] =&gt; Testing Tester
+                    [state] =&gt; OH
+                    [country] =&gt; USA
+                )
+
+            [shippingAddr] =&gt; Array
+                (
+                    [addrLine1] =&gt; 123 Test St
+                    [addrLine2] =&gt;
+                    [city] =&gt; Columbus
+                    [zipCode] =&gt; 43123
+                    [phoneNumber] =&gt;
+                    [phoneExtension] =&gt;
+                    [email] =&gt;
+                    [name] =&gt; Testing Tester
+                    [state] =&gt; OH
+                    [country] =&gt; USA
+                )
+
+            [merchantOrderId] =&gt; 123
+            [orderNumber] =&gt; 205181140821
+            [recurrentInstallmentId] =&gt;
+            [responseMsg] =&gt; Successfully authorized the provided credit card
+            [responseCode] =&gt; APPROVED
+            [total] =&gt; 10.00
+            [currencyCode] =&gt; USD
+            [errors] =&gt;
+        )
+
+)
+</code></pre>
+
+<h2 id="exampleadminapiusage">Example Admin API Usage</h2>
+
+<p><em>Example Request:</em></p>
+
+<pre><code class="php">&lt;?php
+
+Twocheckout::username('testlibraryapi901248204');
+Twocheckout::password('testlibraryapi901248204PASS');
+
+$args = array(
+    'sale_id' =&gt; 4834917619
+);
+try {
+    $result = Twocheckout_Sale::stop($args);
+} catch (Twocheckout_Error $e) {
+    $e-&gt;getMessage();
+}
+</code></pre>
+
+<p><em>Example Response:</em></p>
+
+<pre><code class="php">&lt;?php
+
+[response_code] =&gt; OK
+[response_message] =&gt; Array
+    (
+        [0] =&gt; 4834917634
+        [1] =&gt; 4834917646
+        [2] =&gt; 4834917658
+    )
+</code></pre>
+
+<h2 id="examplecheckoutusage:">Example Checkout Usage:</h2>
+
+<p><em>Example Request:</em></p>
+
+<pre><code class="php">&lt;?php
+$params = array(
+    'sid' =&gt; '1817037',
+    'mode' =&gt; '2CO',
+    'li_0_name' =&gt; 'Test Product',
+    'li_0_price' =&gt; '0.01'
+);
+Twocheckout_Charge::form($params, 'auto');
+</code></pre>
+
+<p><em>Example Response:</em></p>
+
+<pre><code class="php">&lt;form id=&quot;2checkout&quot; action=&quot;https://www.2checkout.com/checkout/spurchase&quot; method=&quot;post&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;sid&quot; value=&quot;1817037&quot;/&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;mode&quot; value=&quot;2CO&quot;/&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;li_0_name&quot; value=&quot;Test Product&quot;/&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;li_0_price&quot; value=&quot;0.01&quot;/&gt;
+&lt;input type=&quot;submit&quot; value=&quot;Click here if you are not redirected automatically&quot; /&gt;&lt;/form&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;document.getElementById('2checkout').submit();&lt;/script&gt;
+</code></pre>
+
+<h2 id="examplereturnusage:">Example Return Usage:</h2>
+
+<p><em>Example Request:</em></p>
+
+<pre><code class="php">&lt;?php
+
+$params = array();
+foreach ($_REQUEST as $k =&gt; $v) {
+    $params[$k] = $v;
+}
+$passback = Twocheckout_Return::check($params, &quot;tango&quot;);
+</code></pre>
+
+<p><em>Example Response:</em></p>
+
+<pre><code class="php">&lt;?php
+
+[response_code] =&gt; Success
+[response_message] =&gt; Hash Matched
+</code></pre>
+
+<h2 id="exampleinsusage:">Example INS Usage:</h2>
+
+<p><em>Example Request:</em></p>
+
+<pre><code class="php">&lt;?php
+
+$params = array();
+foreach ($_POST as $k =&gt; $v) {
+    $params[$k] = $v;
+}
+$passback = Twocheckout_Notification::check($params, &quot;tango&quot;);
+</code></pre>
+
+<p><em>Example Response:</em></p>
+
+<pre><code class="php">&lt;?php
+
+[response_code] =&gt; Success
+[response_message] =&gt; Hash Matched
+</code></pre>
+
+<h2 id="exceptions:">Exceptions:</h2>
+
+<p>Twocheckout_Error exceptions are thrown by if an error has returned. It is best to catch these exceptions so that they can be gracefully handled in your application.</p>
+
+<p><em>Example Usage</em></p>
+
+<pre><code class="php">&lt;?php
+
+Twocheckout::username('testlibraryapi901248204');
+Twocheckout::password('testlibraryapi901248204PASS');
+
+$params = array(
+    'sale_id' =&gt; 4774380224,
+    'category' =&gt; 1,
+    'comment' =&gt; 'Order never sent.'
+);
+try {
+    $sale = Twocheckout_Sale::refund($params);
+} catch (Twocheckout_Error $e) {
+    $e-&gt;getMessage();
+}
+</code></pre>
+
+<p>Full documentation for each binding is provided in the <strong><a href="https://github.com/2Checkout/2checkout-php/wiki">wiki</a></strong>.</p>
+
+</body>
+</html>
+
