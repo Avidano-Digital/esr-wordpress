@@ -68,7 +68,7 @@
             array(
                 'title' => 'Headline (h2)',
                 'block' => 'h2',
-                'classes' => 'h1',
+                'classes' => 'text-center',
                 'exact' => false,
             ),
             array(

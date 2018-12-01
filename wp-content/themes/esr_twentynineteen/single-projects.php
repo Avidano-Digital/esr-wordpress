@@ -83,27 +83,38 @@
 
     <?php endwhile; endif; /* project_content */ ?>
 
-    <section class="py-7 torn-top">
+    <div class="py-7 torn-top">
 
       <!-- Put article content here -->
 
-      <div class="narrow">
-      
-        <h2 class="text-center mb-4">Saving Painted Dogs From Deadly Snares!</h2>
-        <p>
-            African poachers hide thousands of deadly snares every day to catch antelope – but beautiful, endangered painted dogs suffer horrible deaths when they are caught by these snares instead.
-        </p>
-
-        <p>
-          Dr. Greg Rasmussen has designed a cutting-edge collar to save the last 4,500 dogs – who have one of Earth’s most incredible social systems.
-        </p>
-
-      </div>
-      <!-- .narrow -->
+      <?php if( have_rows('article_section') ) :
     
-    </section>
+      while( have_rows('article_section') ) : the_row(); ?>
 
-    <section id="donate-block" class="container mobile-edge bg-light p-3 p-lg-5 mb-5">
+      <article>
+
+      <section class="container">
+
+        <?php if( get_row_layout() == 'text_block' ):
+
+        $wysiwyg = get_sub_field('wysiwyg'); ?>
+
+        <div class="narrow mb-6">
+            <?php echo $wysiwyg; ?>
+        </div>
+
+        <?php endif; /* text_block */ ?>
+
+      </section>
+      
+      </article>
+      
+      <?php endwhile; endif; /* article_content */ ?>
+    
+      </div>
+      <!-- .torn-top -->
+
+    <section id="donate-block" class="container narrow mobile-edge bg-light p-3 p-lg-5 mb-5">
 
       <h3 class="text-center text-green mb-4">Donate to the <?php the_title(); ?> Project</h3>
 

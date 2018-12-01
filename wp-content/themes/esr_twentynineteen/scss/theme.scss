@@ -48,12 +48,12 @@ h5, .h5
 
 // Font weights
 
-h1, .h1,  
+h1, .h1, 
+h2, .h2,  
 h3, .h3,
 .btn
 { @extend .fw-black; }
 
-h2, .h2, 
 .link{ @extend .fw-bold; }
 
 h4, .h4, 

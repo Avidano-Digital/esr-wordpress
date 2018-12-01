@@ -24,12 +24,12 @@
     // ACF Custom WYSIWYG
     ////////////////////////////////////////
 
-    // require_once( __DIR__ . '/lib/acf-custom-wysiwyg.php' );
+    require_once( __DIR__ . '/lib/acf-custom-wysiwyg.php' );
 
     ////////////////////////////////////////
     // ACF 5 Early Access
     ////////////////////////////////////////
 
-    // define('ACF_EARLY_ACCESS', '5');
+    define('ACF_EARLY_ACCESS', '5');
 
 ?>
