@@ -20,7 +20,7 @@
 
     <section class="container-fluid bg-black text-white py-7">
 
-      <h1 class="display-4 text-center mb-5"><?php the_title(); ?></h1>
+      <h1 class="sr-only"><?php the_title(); ?></h1>
 
       <?php
 
@@ -91,7 +91,7 @@
 
         <header class="container mb-4">
 
-          <h2 class="text-center">Saving Painted Dogs From Deadly Snares!</h2>
+          <h2 class="h1 text-center">Saving Painted Dogs From Deadly Snares!</h2>
 
         </header>
 
