@@ -18,7 +18,7 @@
 
     <?php if( $type == 'Video' ) : ?>
 
-    <section class="container-fluid bg-black text-white py-6">
+    <section class="container-fluid bg-black text-white py-7">
 
       <h1 class="display-4 text-center mb-5"><?php the_title(); ?></h1>
 
@@ -87,40 +87,66 @@
 
       <!-- Put article content here -->
 
-      <?php if( have_rows('article_section') ) :
-    
-      while( have_rows('article_section') ) : the_row(); ?>
-
       <article>
 
-      <section class="container">
+        <header class="container mb-4">
 
-        <?php if( get_row_layout() == 'text_block' ):
+          <h2 class="text-center">Saving Painted Dogs From Deadly Snares!</h2>
 
-        $wysiwyg = get_sub_field('wysiwyg'); ?>
+        </header>
 
-        <div class="text-block mb-6">
-            <?php echo $wysiwyg; ?>
-        </div>
-
-        <?php endif; /* text_block */ ?>
-
-      </section>
+        <?php if( have_rows('article_section') ) :
       
+        while( have_rows('article_section') ) : the_row(); ?>
+
+        <section class="container">
+
+          <?php if( get_row_layout() == 'text_block' ):
+
+          $wysiwyg = get_sub_field('wysiwyg'); ?>
+
+          <div class="text-block my-6">
+              <?php echo $wysiwyg; ?>
+          </div>
+
+          <?php elseif( get_row_layout() == 'figure_block' ): 
+
+          $figure_inline_single = get_sub_field('figure_inline_single');
+
+          $image = $figure_inline_single['image'];
+          $caption = $figure_inline_single['caption'];
+
+          ?>
+
+          <div class="figure-block my-6">
+              <figure class="figure my-0">
+                  <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                  <figcaption class="figure-caption"><?php echo $caption; ?></figcaption>
+              </figure>
+          </div>
+          <!-- .narrow -->
+
+
+          <?php elseif( get_row_layout() == 'donate_block' ): ?>
+
+          <div id="donate-block" class="mobile-edge bg-light p-3 p-lg-5 mb-7">
+
+            <h2 class="text-center text-green mb-4">Donate to the <?php the_title(); ?> Project</h2>
+
+            <?php echo do_shortcode( get_sub_field('donation_form_shortcode') ); ?>
+
+          </div>
+
+          <?php endif; /* text_block | figure_block | donate_block */ ?>
+
+        </section>
+
+        <?php endwhile; endif; /* article_section */ ?>
+    
       </article>
       
-      <?php endwhile; endif; /* article_content */ ?>
-    
-      </div>
-      <!-- .torn-top -->
-
-    <section id="donate-block" class="container narrow mobile-edge bg-light p-3 p-lg-5 mb-5">
-
-      <h3 class="text-center text-green mb-4">Donate to the <?php the_title(); ?> Project</h3>
-
-      <?php echo do_shortcode(get_field('donation_form_shortcode')); ?>
-
-    </section>
+    </div>
+    <!-- .torn-top -->
     
 </main><!-- #content -->
 

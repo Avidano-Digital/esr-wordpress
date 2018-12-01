@@ -299,7 +299,7 @@ $torn-height: 36px;
 }
 
 .torn-bottom{
-  @extend .pb-8;
+  // @extend .pb-7;
 
   &::before {
     bottom: 0;
@@ -308,7 +308,7 @@ $torn-height: 36px;
 }
 
 .torn-top{
-  @extend .pt-8;
+  // @extend .pt-7;
 
   &::before {
     top: 0;
@@ -322,7 +322,7 @@ article{
 
     @extend .narrow; 
 
-    h2{ @extend .mb-4; }
+    // h2{ @extend .mb-4; }
 
     p{ @extend .fs-lg; }
 
