@@ -8500,6 +8500,277 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/plugins/enable-media-replace/enable-media-replace.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/enable-media-replace.php",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/img/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/img/index.php",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/img/shortpixel.png": {
+		"ft": 32768,
+		"iS": 5542,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/img/shortpixel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/plugins/enable-media-replace/img/sp.png": {
+		"ft": 32768,
+		"iS": 4736,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/img/sp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/plugins/enable-media-replace/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/index.php",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-da_DK.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-da_DK.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-da_DK.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-da_DK.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-de_DE.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-de_DE.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-de_DE.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-de_DE.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-fr_FR.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-fr_FR.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-fr_FR.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-fr_FR.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-it_IT.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-it_IT.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-it_IT.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-it_IT.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ja.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ja.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ja.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ja.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-nl_NL.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-nl_NL.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-nl_NL.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-nl_NL.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_BR.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_BR.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_BR.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_BR.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_PT.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_PT.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_PT.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-pt_PT.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ru_RU.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ru_RU.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ru_RU.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-ru_RU.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-sv_SE.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-sv_SE.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-sv_SE.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-sv_SE.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-zh_CN.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-zh_CN.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace-zh_CN.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace-zh_CN.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace.mo",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/enable-media-replace.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/enable-media-replace.po",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/languages/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/languages/index.php",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/LICENSE",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/notice.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/notice.php",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/popup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/popup.php",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/wp-content/plugins/enable-media-replace/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/readme.txt",
+		"oF": 0
+		},
+	"/wp-content/plugins/enable-media-replace/upload.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/plugins/enable-media-replace/upload.php",
+		"oF": 0
+		},
 	"/wp-content/plugins/give-2checkout/assets/js/give-twocheckout-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -20749,17 +21020,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-carbonita-full.png": {
-		"ft": 32768,
-		"iS": 27970,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-carbonita-full.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/wp-content/themes/esr_twentynineteen/images/character-carbonita-full.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -20770,16 +21030,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-carbonita-square.png": {
-		"ft": 32768,
-		"iS": 19425,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-carbonita-square.png",
+	"/wp-content/themes/esr_twentynineteen/images/character-carbonita-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-carbonita-small.svg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/images/character-carbonita-square.svg": {
 		"ft": 2097152,
@@ -20791,17 +21050,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-cleopatra-full.png": {
-		"ft": 32768,
-		"iS": 17013,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-cleopatra-full.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/wp-content/themes/esr_twentynineteen/images/character-cleopatra-full.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -20812,16 +21060,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-cleopatra-square.png": {
-		"ft": 32768,
-		"iS": 13478,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-cleopatra-square.png",
+	"/wp-content/themes/esr_twentynineteen/images/character-cleopatra-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-cleopatra-small.svg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/images/character-cleopatra-square.svg": {
 		"ft": 2097152,
@@ -20833,17 +21080,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-olivia-full.png": {
-		"ft": 32768,
-		"iS": 12012,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-olivia-full.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/wp-content/themes/esr_twentynineteen/images/character-olivia-full.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -20854,16 +21090,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-olivia-square.png": {
-		"ft": 32768,
-		"iS": 8507,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-olivia-square.png",
+	"/wp-content/themes/esr_twentynineteen/images/character-olivia-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-olivia-small.svg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/images/character-olivia-square.svg": {
 		"ft": 2097152,
@@ -20875,17 +21110,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-picasso-full.png": {
-		"ft": 32768,
-		"iS": 16839,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-picasso-full.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/wp-content/themes/esr_twentynineteen/images/character-picasso-full.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -20896,16 +21120,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/character-picasso-square.png": {
-		"ft": 32768,
-		"iS": 13777,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-picasso-square.png",
+	"/wp-content/themes/esr_twentynineteen/images/character-picasso-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-picasso-small.svg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/images/character-picasso-square.svg": {
 		"ft": 2097152,
@@ -20916,17 +21139,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/wp-content/themes/esr_twentynineteen/images/character-smyke-full.png": {
-		"ft": 32768,
-		"iS": 23723,
-		"oA": 0,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-smyke-full.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/character-smyke-full.svg": {
 		"ft": 2097152,
@@ -21090,6 +21302,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/wp-content/themes/esr_twentynineteen/images/hero-moon-bear-rescue.jpg": {
+		"ft": 16384,
+		"iS": 255863,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/hero-moon-bear-rescue.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/esr_twentynineteen/images/peter-gottesman-avatar.png": {
 		"ft": 32768,
 		"iS": 14011,
@@ -21198,6 +21421,26 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-top-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-top-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/include/all-links.php": {
 		"cB": 0,
@@ -21425,6 +21668,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/wp-content/themes/esr_twentynineteen/scss/_g-give-send-in-blue.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/wp-content/themes/esr_twentynineteen/scss/_g-give-send-in-blue.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/wp-content/themes/esr_twentynineteen/scss/theme.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -21493,6 +21749,46 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/wp-content/uploads/2018/11/character-carbonita-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/character-carbonita-small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/uploads/2018/11/character-cleopatra-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/character-cleopatra-small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/uploads/2018/11/character-olivia-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/character-olivia-small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/uploads/2018/11/character-picasso-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/11/character-picasso-small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/uploads/2018/11/endangered-species-revenge-carbonita-square.svg": {
 		"ft": 2097152,
@@ -21778,6 +22074,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/11/thumb-video-african-painted-dog-alternate.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/hero-moon-bear-rescue-320x180.jpg": {
+		"ft": 16384,
+		"iS": 23412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/hero-moon-bear-rescue-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/hero-moon-bear-rescue.jpg": {
+		"ft": 16384,
+		"iS": 255863,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/hero-moon-bear-rescue.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

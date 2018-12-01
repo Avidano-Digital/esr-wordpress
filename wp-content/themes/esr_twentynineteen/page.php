@@ -44,8 +44,10 @@ get_header(); ?>
       $class_name = get_sub_field('class_name');
 
       $image = get_sub_field('image');
+      $image_character = get_sub_field('image_character');
       
       $headline = get_sub_field('headline');
+      $paragraph = get_sub_field('paragraph');
       $link = get_sub_field('link');
 
       ?>
@@ -56,25 +58,32 @@ get_header(); ?>
 
           <?php if( !empty($image) ) : ?>
 
-          <div class="overlay-gradient-y-blacky">
-            <img class="card-img opacity-30 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
-          </div>
+          <img class="card-img opacity-20 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+
           <?php endif; ?>
 
           <div class="card-img-overlay d-flex">
             <div class="container align-self-center">
               <div class="narrow text-white text-center py-4">
-                <h2 class="h1 card-title">
+              
+              <div class="character mx-auto mb-3"><img src="<?php echo $image_character['url']; ?>" alt="<?php echo $image_character['alt']; ?>"></div> 
+                
+              <h2 class="card-title">
                   <?php echo $headline; ?>
                 </h2>
-                <p class="fs-lg">
-                  African poachers hide thousands of deadly snares every day to catch antelope – but beautiful, endangered
-                  painted dogs suffer horrible deaths when they are caught by these snares instead.
-                </p>
-                <a class="btn btn-lg btn-secondary text-primary rounded" href="#" title="<?php echo $link['title']; ?>">
-                  <?php echo $link['title']; ?></a>
+
+                <div class="fs-lg mb-2">
+                  <?php echo $paragraph; ?>
+                </div>
+
+                <a class="btn btn-lg btn-secondary text-primary rounded" href="<?php echo $link['url']; ?>" title="<?php echo $link['title']; ?>">
+                  <?php echo $link['title']; ?>
+                </a>
+
               </div>
+              <!-- .narrow -->
             </div>
+            <!-- .container -->
           </div>
         </div>
 

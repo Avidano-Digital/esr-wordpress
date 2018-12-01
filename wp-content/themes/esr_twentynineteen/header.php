@@ -20,7 +20,7 @@
 
 <body <?php body_class(); ?>>
 
-    <header id="global-header" role="banner">
+    <header class="z-index-900" id="global-header" role="banner">
 
         <div class="wrap-header bg-primary">
 

@@ -103,6 +103,7 @@ $gradients: true;
   [class*="border"]{ border: none !important; }
   [class*="shadow"]{ box-shadow: none !important; }
   img.show-on-mobile{ @include opacity(1); }
+  .character{ max-width: 50%; }
 }
 
 $featured-panel: true;
@@ -123,14 +124,6 @@ $featured-panel: true;
     }
     
     .card-img-overlay{ @extend .px-0; }
-
-    .character{
-      @extend .position-absolute;
-      @extend .z-index-900;
-      bottom: 0;
-      right: 0;
-      width: 240px;
-    }
 
     @each $breakpoint in map-keys($grid-breakpoints) {
       $next: breakpoint-next($breakpoint, $grid-breakpoints);

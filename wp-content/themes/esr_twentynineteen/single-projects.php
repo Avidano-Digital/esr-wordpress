@@ -84,7 +84,7 @@
 
     <?php endwhile; endif; /* project_content */ ?>
 
-    <section class="py-8">
+    <section class="py-7 torn-top">
 
       <div class="narrow">
       

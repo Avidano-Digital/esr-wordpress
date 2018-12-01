@@ -16,7 +16,7 @@
 
   <main id="content">
 
-    <section class="py-7" id="introduction">
+    <section class="py-7 torn-bottom" id="introduction">
 
       <header class="mb-5">
         <h1 class="display-4 text-center">
