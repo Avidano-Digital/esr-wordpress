@@ -18,7 +18,7 @@
 
     <?php if( $type == 'Video' ) : ?>
 
-    <section class="container-fluid bg-black text-white py-7">
+    <section class="container-fluid bg-black torn-bottom-white text-white py-7">
 
       <h1 class="sr-only"><?php the_title(); ?></h1>
 
@@ -54,16 +54,16 @@
 
     <?php elseif( $type == 'Image' ) : ?>
 
-    <section class="container-fluid bg-black text-white py-6">
+    <section class="container-fluid bg-black torn-bottom-white text-white">
 
-    <h1 class="display-4 text-center mb-5"><?php the_title(); ?></h1>
+    <h1 class="sr-only"><?php the_title(); ?></h1>
 
       <div class="offset-gutter-x">
 
-        <div class="wide overlay-gradient-y-black">
+        <div class="overlay-gradient-y-black">
 
           <?php if ($image) : ?>
-            <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+            <img class="card-img opacity-80" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
           <?php else : ?>
             <img class="card-img" src="http://via.placeholder.com/1200x675/000000/333333/.jpg" alt="Placeholder">
           <?php endif; ?>
@@ -83,7 +83,7 @@
 
     <?php endwhile; endif; /* project_content */ ?>
 
-    <div class="py-7 torn-top">
+    <div class="py-7">
 
       <!-- Put article content here -->
 

@@ -7,6 +7,7 @@
             <div class="col-sm-4 col-xxl-2">
                 <ul class="link-list text-center fs-md">
                     <li class="h4"><a class="text-green" href="/projects" title="Projects">Projects</a></li>
+                    <li><a href="/projects/moon-bear-rescue" title="Moon Bear Rescue">Moon Bear Rescue</a></li>
                     <li><a href="/projects/african-painted-dogs" title="African Painted Dogs">African Painted Dogs</a></li>
                     <li><a href="/projects/cheetahs" title="Cheetahs">Cheetahs</a></li>
                     <li><a href="/projects/pink-dolphin-rescue" title="Pink Dolphin Rescue">Pink Dolphin Rescue</a></li>

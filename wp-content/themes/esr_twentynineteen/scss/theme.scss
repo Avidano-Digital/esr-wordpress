@@ -284,17 +284,20 @@ button#toggle-device-menu{
 $torn-height: 36px;
 
 .torn-top, 
-.torn-bottom 
+.torn-bottom,
+.torn-bottom-white
 {
   @extend .position-relative;
 
   &::before{
     content: "\00a0";
     position: absolute;
+
     width: 100%;
     left: 0;
     height: $torn-height;
     border: none;
+    @extend .z-index-800;
   }
 }
 
@@ -313,6 +316,14 @@ $torn-height: 36px;
   &::before {
     top: 0;
     @include apply-background-image('torn-top-black', '.svg');
+  }
+}
+.torn-bottom-white{
+  // @extend .pt-7;
+
+  &::before {
+    bottom: 0;
+    @include apply-background-image('torn-bottom-white', '.svg');
   }
 }
 

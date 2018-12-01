@@ -4,6 +4,7 @@
 
         <?php if( 
                $slug == 'projects' 
+            || $slug == 'moon-bear-rescue' 
             || $slug == 'african-painted-dogs' 
             || $slug == 'cheetahs' 
             || $slug == 'pink-dolphin-rescue' 
@@ -19,6 +20,7 @@
         </a>
         
         <ul class="sub">
+            <li><a href="/projects/moon-bear-rescue" title="Moon Bear Rescue">Moon Bear Rescue</a></li>
             <li><a href="/projects/african-painted-dogs" title="African Painted Dogs">African Painted Dogs</a></li>
             <li><a href="/projects/cheetahs" title="Cheetahs">Cheetahs</a></li>
             <li><a href="/projects/pink-dolphin-rescue" title="Pink Dolphin Rescue">Pink Dolphin Rescue</a></li>
