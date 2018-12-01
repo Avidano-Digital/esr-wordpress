@@ -99,7 +99,7 @@
 
         $wysiwyg = get_sub_field('wysiwyg'); ?>
 
-        <div class="narrow mb-6">
+        <div class="text-block mb-6">
             <?php echo $wysiwyg; ?>
         </div>
 

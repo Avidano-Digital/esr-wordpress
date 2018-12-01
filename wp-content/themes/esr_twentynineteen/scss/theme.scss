@@ -315,3 +315,17 @@ $torn-height: 36px;
     @include apply-background-image('torn-top-black', '.svg');
   }
 }
+
+article{
+
+  .text-block{
+
+    @extend .narrow; 
+
+    h2{ @extend .mb-4; }
+
+    p{ @extend .fs-lg; }
+
+  }
+
+}
