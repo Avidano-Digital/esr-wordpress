@@ -77,7 +77,6 @@
     </section>
     <!-- .container-fluid  -->
 
-
     <?php endif; /* Image */ ?>
 
     <?php endif; /* hero_block */ ?>
@@ -85,6 +84,8 @@
     <?php endwhile; endif; /* project_content */ ?>
 
     <section class="py-7 torn-top">
+
+      <!-- Put article content here -->
 
       <div class="narrow">
       
