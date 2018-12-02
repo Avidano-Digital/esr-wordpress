@@ -12,13 +12,13 @@
   
   ?>
 
-  <section class="featured-panel torn-bottom-white responsive-md">
+  <section class="featured-panel responsive-md">
 
     <div class="card <?php if( !empty($class_name) ) echo $class_name ?>">
 
-      <div class="overlay-gradient-y-blacks">
+      <div class="torn-bottom">
         <?php if ($image) : ?>
-        <img class="card-img opacity-30 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+        <img class="card-img opacity-20 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
         <?php else : ?>
         <img class="card-img" src="http://via.placeholder.com/1200x675/000000/333333/.jpg" alt="Placeholder">
         <?php endif; ?>
@@ -27,7 +27,7 @@
       <!-- .overlay-gradient-y-black -->
       <div class="card-img-overlay d-flex">
 
-        <div class="container align-self-center pt-4 pb-6">
+        <div class="container align-self-center">
 
           <div class="text-white text-center">
             <img class="mb-2" src="<?php echo $character_image['url']; ?>" alt="<?php echo $character_image['alt'] ?>">
@@ -101,7 +101,7 @@
   
         ?>
 
-        <div class="video-block my-6">
+        <div class="video-block mobile-margin-offset-x my-6">
 
         <div class="wide bg-black">
 
@@ -119,7 +119,7 @@
 
       <?php elseif( get_row_layout() == 'donate_block' ): ?>
 
-      <div id="donate-block" class="mobile-edge bg-light p-3 p-lg-5 mb-7">
+      <div id="donate-block" class="mobile-margin-offset-x bg-light p-3 p-lg-5 my-6">
 
         <h2 class="text-center text-green mb-4">Donate to the <?php the_title(); ?> Project</h2>
 

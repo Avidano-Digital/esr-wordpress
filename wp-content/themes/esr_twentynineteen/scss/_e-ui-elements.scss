@@ -104,6 +104,52 @@ $gradients: true;
   [class*="shadow"]{ box-shadow: none !important; }
   img.show-on-mobile{ @include opacity(1); }
   .character{ max-width: 50%; }
+  
+  .card.african-painted-dog{
+    > .torn-bottom{
+      &::before {
+        @include apply-background-image('torn-bottom-african-painted-dog', '.svg');
+      }
+    }
+  }
+
+  .card.cheetah{
+    > .torn-bottom{
+      &::before {
+        @include apply-background-image('torn-bottom-cheetah', '.svg');
+      }
+    }
+  }
+
+  .card.pink-dolphin{
+    > .torn-bottom{
+      &::before {
+        @include apply-background-image('torn-bottom-pink-dolphin', '.svg');
+      }
+    }
+  }
+
+  .card.coral-climate-change{
+    > .torn-bottom{
+      &::before {
+        @include apply-background-image('torn-bottom-coral-climate-change', '.svg');
+      }
+    }
+  }
+
+  .card.moon-bear{
+    > .torn-bottom{
+      &::before {
+        @include apply-background-image('torn-bottom-moon-bear', '.svg');
+      }
+    }
+  }  
+
+
+
+
+
+
 }
 
 $featured-panel: true;

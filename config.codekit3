@@ -21464,11 +21464,71 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-black.svg": {
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dog.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-black.svg",
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dog.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dogs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dogs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-cheetah.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-cheetah.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-cheetahs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-cheetahs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-coral-climate-change.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-coral-climate-change.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-moon-bear.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-moon-bear.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-pink-dolphin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-pink-dolphin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -21484,11 +21544,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/wp-content/themes/esr_twentynineteen/images/torn-top-black.svg": {
+	"/wp-content/themes/esr_twentynineteen/images/torn-top-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-top-black.svg",
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-top-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

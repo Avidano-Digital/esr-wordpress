@@ -58,17 +58,19 @@ get_header(); ?>
 
           <?php if( !empty($image) ) : ?>
 
-          <img class="card-img opacity-30 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+          <div class="torn-bottom">
+            <img class="card-img opacity-20 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+          </div>
 
           <?php endif; ?>
 
           <div class="card-img-overlay d-flex">
             <div class="container align-self-center">
-              <div class="narrow text-white text-center py-4">
+              <div class="narrow text-white text-center">
               
               <div class="character mx-auto mb-3"><img src="<?php echo $image_character['url']; ?>" alt="<?php echo $image_character['alt']; ?>"></div> 
                 
-              <h2 class="card-title">
+                <h2 class="card-title">
                   <?php echo $headline; ?>
                 </h2>
 
@@ -99,8 +101,6 @@ get_header(); ?>
 
   </section>
   <!-- .container-fluid -->
-
-  <?php get_template_part( 'template-parts/share' ) ?>
     
 </main>
 <!-- #content -->

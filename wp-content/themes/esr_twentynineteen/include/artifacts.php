@@ -1,4 +1,4 @@
-<section class="bg-black py-7">
+<section class="bg-black torn-top pt-8 pb-7">
                    
     <div class="container text-center">
 

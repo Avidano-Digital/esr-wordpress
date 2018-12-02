@@ -383,9 +383,9 @@ $nav-tabs-link-active-border-color: $border-color $border-color $nav-tabs-link-a
 
 // Box shadows 
 
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .25) !default;
-$box-shadow:                  0 .5rem 1rem rgba($black, .25) !default;
-$box-shadow-lg:               0 1rem 3rem rgba($black, .25) !default;
+$box-shadow-sm:               0 0 .5rem rgba($black, .25) !default;
+$box-shadow:                  0 0 1rem rgba($black, .25) !default;
+$box-shadow-lg:               0 0 3rem rgba($black, .25) !default;
 
 $accessible-box-shadow: 0 0 0 $border-width $input-border-color;
 

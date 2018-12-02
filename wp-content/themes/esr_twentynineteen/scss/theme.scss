@@ -271,7 +271,7 @@ button#toggle-device-menu{
 }
 
 ////////////////////////////////////////
-// Whatever
+// Margin Borders
 ////////////////////////////////////////
 
 .mb-child-border{
@@ -282,52 +282,53 @@ button#toggle-device-menu{
   }
 }
 
+////////////////////////////////////////
+// Torn Edges
+////////////////////////////////////////
 
 $torn-height: 36px;
 
-.torn-top, 
-.torn-bottom,
-.torn-bottom-white
-{
+[class*="torn-"]{
+  // border:12px solid red;
+
   @extend .position-relative;
 
   &::before{
     content: "\00a0";
-    position: absolute;
+    @extend .position-absolute;
+    @extend .z-index-800;
+    @extend .w-100;
 
-    width: 100%;
     left: 0;
     height: $torn-height;
-    border: none;
-    @extend .z-index-800;
+    // border: none;
+  }
+}
+
+
+.torn-top{
+
+  &::before {
+    top: 0;
+    @include apply-background-image('torn-top-white', '.svg');
   }
 }
 
 .torn-bottom{
-  // @extend .pb-7;
-
-  &::before {
-    bottom: 0;
-    @include apply-background-image('torn-bottom-black', '.svg');
-  }
-}
-
-.torn-top{
-  // @extend .pt-7;
-
-  &::before {
-    top: 0;
-    @include apply-background-image('torn-top-black', '.svg');
-  }
-}
-.torn-bottom-white{
-  // @extend .pt-7;
 
   &::before {
     bottom: 0;
     @include apply-background-image('torn-bottom-white', '.svg');
   }
 }
+
+// @include media-breakpoint-down(lg) {
+
+// }
+
+////////////////////////////////////////
+// Articles
+////////////////////////////////////////
 
 article{
 
@@ -341,4 +342,16 @@ article{
 
   }
 
+}
+
+
+
+
+.mobile-margin-offset-x{
+
+@include media-breakpoint-down('xs') {
+
+  margin-left: -(($grid-gutter-width/2));
+  margin-right: -(($grid-gutter-width/2));
+}
 }
