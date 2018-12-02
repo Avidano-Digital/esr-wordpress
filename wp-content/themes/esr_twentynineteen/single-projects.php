@@ -2,139 +2,55 @@
 
 <main id="content" role="main">
 
-<?php if( have_rows('project_content') ):
+  <?php if( have_rows('hero') ): while( have_rows('hero') ): the_row(); 
+  
+  // vars
+  $subtitle = get_sub_field('subtitle');
+  $image = get_sub_field('image');
+  $character_image = get_sub_field('character_image');
+  $class_name = get_sub_field('class_name');
+  
+  ?>
 
-  while ( have_rows('project_content') ) : the_row();
+  <section class="featured-panel torn-bottom-white responsive-md">
 
-    if( get_row_layout() == 'hero_block' ):
+    <div class="card <?php if( !empty($class_name) ) echo $class_name ?>">
 
-    $type = get_sub_field('type');
-    $video = get_sub_field('video');
-    $image = get_sub_field('image');
-
-    $post_object = $video;
-    
-    ?>
-
-    <?php if( $type == 'Video' ) : ?>
-
-    <section class="container-fluid bg-black torn-bottom-white text-white ">
-
-      <h1 class="sr-only"><?php the_title(); ?></h1>
-
-      <?php
-
-      if( $post_object ) :
-      foreach($post_object as $post) :
-      setup_postdata( $post ); 
-
-      $video_url = get_field('video_url');
-      $video_id = substr( strrchr( $video_url, '/' ), 1 );
-
-      ?>
-
-      <div class="offset-gutter-x">
-
-        <div class="wide">
-        
-          <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>"></iframe>
-          </div>
-
-        </div>
-        <!-- .wide -->
-
-      </div>
-      <!-- .offset-gutter-x -->
-
-      <?php endforeach; endif; wp_reset_postdata(); /* post_objects */?>
-
-    </section>
-    <!-- .container-fluid  -->
-
-    <?php elseif( $type == 'Image' ) : ?>
-
-
-
-
-    <section class="featured-panel torn-bottom-white responsive-md">
-
-      <div class="card bg-black" style="background-color: #1B6486">
-
-        <div class="overlay-gradient-y-blacks">
+      <div class="overlay-gradient-y-blacks">
         <?php if ($image) : ?>
-          <img class="card-img opacity-60 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+        <img class="card-img opacity-20 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
         <?php else : ?>
-          <img class="card-img" src="http://via.placeholder.com/1200x675/000000/333333/.jpg" alt="Placeholder">
+        <img class="card-img" src="http://via.placeholder.com/1200x675/000000/333333/.jpg" alt="Placeholder">
         <?php endif; ?>
-        </div>
+      </div>
 
-        <!-- .overlay-gradient-y-black -->
-        <div class="card-img-overlay d-flex">
+      <!-- .overlay-gradient-y-black -->
+      <div class="card-img-overlay d-flex">
 
-          <!-- QGUHJGVCFHJGEFGVHBJNGFBDVGSCFGVHBJNKJHGFDGHJKHGFDCGHJKHGFCGHBJNKJHGFCGHJ  VBNJNHVGCFXDFCGHVJBNKBHVGCFXCGVHBJHVGCFXVBN -->
-          <!-- QGUHJGVCFHJGEFGVHBJNGFBDVGSCFGVHBJNKJHGFDGHJKHGFDCGHJKHGFCGHBJNKJHGFCGHJ  VBNJNHVGCFXDFCGHVJBNKBHVGCFXCGVHBJHVGCFXVBN -->
-          <!-- QGUHJGVCFHJGEFGVHBJNGFBDVGSCFGVHBJNKJHGFDGHJKHGFDCGHJKHGFCGHBJNKJHGFCGHJ  VBNJNHVGCFXDFCGHVJBNKBHVGCFXCGVHBJHVGCFXVBN -->
-          
-          <div class="container align-self-center py-5">
- 
-            <div class="text-white text-center">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/character-superbear-small.svg" alt="">
-              <h1 class="card-title display-3 text-shadow"><?php the_title(); ?></h1>
-            </div>
+        <div class="container align-self-center pt-4 pb-6">
 
+          <div class="text-white text-center">
+            <img class="mb-2" src="<?php echo $character_image['url']; ?>" alt="<?php echo $character_image['alt'] ?>">
+            <h1 class="card-title display-3">
+              <?php the_title(); ?>
+            </h1>
+            <p class="fs-lg"><strong><?php echo $subtitle; ?></strong></p>
           </div>
+
         </div>
       </div>
 
-    </section>
-    <!-- .featured-panel -->
+    </div>
+    <!-- .card -->
 
+  </section>
+  <!-- .featured-panel -->
 
-
-
-
-
-    <section class="container-fluid bg-black d-none text-white">
-
-    <h1 class="sr-only"><?php the_title(); ?></h1>
-
-      <div class="offset-gutter-x">
-
-        <div class="overlay-gradient-y-black">
-
-          <?php if ($image) : ?>
-            <img class="card-img opacity-80" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
-          <?php else : ?>
-            <img class="card-img" src="http://via.placeholder.com/1200x675/000000/333333/.jpg" alt="Placeholder">
-          <?php endif; ?>
-
-        </div>
-        <!-- .wide -->
-
-      </div>
-      <!-- .offset-gutter-x -->
-
-    </section>
-    <!-- .container-fluid  -->
-
-    <?php endif; /* Image */ ?>
-
-    <?php endif; /* hero_block */ ?>
-
-    <?php endwhile; endif; /* project_content */ ?>
-
-    <div class="py-7">
+  <?php endwhile;  endif; /* hero */ ?>
 
       <!-- Put article content here -->
 
       <article>
-
-        <header class="container mb-4">
-
-          <h2 class="h1 text-center">Saving Painted Dogs From Deadly Snares!</h2>
-
-        </header>
 
         <?php if( have_rows('article_section') ) :
       
@@ -185,9 +101,6 @@
         <?php endwhile; endif; /* article_section */ ?>
     
       </article>
-      
-    </div>
-    <!-- .torn-top -->
     
 </main><!-- #content -->
 
