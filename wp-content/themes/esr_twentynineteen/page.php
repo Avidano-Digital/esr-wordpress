@@ -58,7 +58,7 @@ get_header(); ?>
 
           <?php if( !empty($image) ) : ?>
 
-          <img class="card-img opacity-20 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+          <img class="card-img opacity-30 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 
           <?php endif; ?>
 
