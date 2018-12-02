@@ -21150,6 +21150,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/esr_twentynineteen/images/character-superbear-small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-superbear-small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/character-superbear-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-superbear-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01-b.jpg": {
 		"ft": 16384,
 		"iS": 28761,
@@ -21311,6 +21331,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/figures/moon-bear-cub-in-wild.jpg": {
+		"ft": 16384,
+		"iS": 251847,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/figures/moon-bear-cub-in-wild.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/hero-moon-bear-rescue.jpg": {
@@ -22124,7 +22155,7 @@
 		},
 	"/wp-content/uploads/2018/12/hero-moon-bear-rescue-320x180.jpg": {
 		"ft": 16384,
-		"iS": 23412,
+		"iS": 16458,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/hero-moon-bear-rescue-320x180.jpg",
@@ -22135,10 +22166,32 @@
 		},
 	"/wp-content/uploads/2018/12/hero-moon-bear-rescue.jpg": {
 		"ft": 16384,
-		"iS": 255863,
+		"iS": 301346,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/hero-moon-bear-rescue.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/moon-bear-cub-in-wild-320x180.jpg": {
+		"ft": 16384,
+		"iS": 23173,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/moon-bear-cub-in-wild-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/moon-bear-cub-in-wild.jpg": {
+		"ft": 16384,
+		"iS": 251847,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/moon-bear-cub-in-wild.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

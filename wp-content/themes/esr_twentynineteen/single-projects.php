@@ -18,7 +18,7 @@
 
     <?php if( $type == 'Video' ) : ?>
 
-    <section class="container-fluid bg-black torn-bottom-white text-white py-7">
+    <section class="container-fluid bg-black torn-bottom-white text-white ">
 
       <h1 class="sr-only"><?php the_title(); ?></h1>
 
@@ -37,7 +37,7 @@
 
         <div class="wide">
         
-          <div class="embed-responsive embed-responsive-16by9 shadow-lg">
+          <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>"></iframe>
           </div>
 
@@ -54,7 +54,48 @@
 
     <?php elseif( $type == 'Image' ) : ?>
 
-    <section class="container-fluid bg-black torn-bottom-white text-white">
+
+
+
+    <section class="featured-panel torn-bottom-white responsive-md">
+
+      <div class="card bg-black" style="background-color: #1B6486">
+
+        <div class="overlay-gradient-y-blacks">
+        <?php if ($image) : ?>
+          <img class="card-img opacity-60 show-on-mobile" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+        <?php else : ?>
+          <img class="card-img" src="http://via.placeholder.com/1200x675/000000/333333/.jpg" alt="Placeholder">
+        <?php endif; ?>
+        </div>
+
+        <!-- .overlay-gradient-y-black -->
+        <div class="card-img-overlay d-flex">
+
+          <!-- QGUHJGVCFHJGEFGVHBJNGFBDVGSCFGVHBJNKJHGFDGHJKHGFDCGHJKHGFCGHBJNKJHGFCGHJ  VBNJNHVGCFXDFCGHVJBNKBHVGCFXCGVHBJHVGCFXVBN -->
+          <!-- QGUHJGVCFHJGEFGVHBJNGFBDVGSCFGVHBJNKJHGFDGHJKHGFDCGHJKHGFCGHBJNKJHGFCGHJ  VBNJNHVGCFXDFCGHVJBNKBHVGCFXCGVHBJHVGCFXVBN -->
+          <!-- QGUHJGVCFHJGEFGVHBJNGFBDVGSCFGVHBJNKJHGFDGHJKHGFDCGHJKHGFCGHBJNKJHGFCGHJ  VBNJNHVGCFXDFCGHVJBNKBHVGCFXCGVHBJHVGCFXVBN -->
+          
+          <div class="container align-self-center py-5">
+ 
+            <div class="text-white text-center">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/character-superbear-small.svg" alt="">
+              <h1 class="card-title display-3 text-shadow"><?php the_title(); ?></h1>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- .featured-panel -->
+
+
+
+
+
+
+    <section class="container-fluid bg-black d-none text-white">
 
     <h1 class="sr-only"><?php the_title(); ?></h1>
 
