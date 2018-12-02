@@ -100,7 +100,9 @@ get_header(); ?>
   </section>
   <!-- .container-fluid -->
 
+  <?php get_template_part( 'template-parts/share' ) ?>
+    
 </main>
 <!-- #content -->
-
+    
 <?php get_footer(); ?>

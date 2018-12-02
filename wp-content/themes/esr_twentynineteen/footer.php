@@ -19,10 +19,10 @@
 
                     <div class="input-group">
 
-                        <input type="email" class="form-control form-control-lg border-white sib-email-area" name="email" placeholder="Add your email" required="required">
+                        <input type="email" class="form-control form-control-lg border-white rounded-0 sib-email-area" name="email" placeholder="Add your email" required="required">
 
                         <div class="input-group-btn">
-                            <button type="submit" class="btn btn-lg btn-secondary text-primary">
+                            <button type="submit" class="btn btn-lg btn-secondary text-primary rounded-0">
                                 <span class="fas fa-plus"></span>
                             </button>
                         </div>

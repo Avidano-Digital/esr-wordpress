@@ -134,7 +134,10 @@
     <?php endwhile; endif; /* article_section */ ?>
 
   </article>
+
+  <?php get_template_part( 'template-parts/share' ) ?>
     
-</main><!-- #content -->
+</main>
+<!-- #content -->
 
 <?php get_footer(); ?>
