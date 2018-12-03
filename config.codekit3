@@ -20728,12 +20728,12 @@
 		},
 	"/wp-content/themes/esr_twentynineteen/images/btn-donate-reverse.png": {
 		"ft": 32768,
-		"iS": 1610,
+		"iS": 612,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-donate-reverse.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20753,8 +20753,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-donate.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20774,8 +20774,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-explore.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20795,8 +20795,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-facebook.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20816,8 +20816,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-instagram.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20837,8 +20837,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-linkedin.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20858,8 +20858,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-play.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20879,8 +20879,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-share-email.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20900,8 +20900,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-share-facebook.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20921,8 +20921,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-share-twitter.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20942,8 +20942,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-toggle-menu-reverse.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20963,8 +20963,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-toggle-menu.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -20984,8 +20984,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-twitter.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -21005,8 +21005,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/btn-youtube.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -21172,24 +21172,24 @@
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01-b.jpg": {
 		"ft": 16384,
-		"iS": 28761,
+		"iS": 27921,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01-b.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01-small.jpg": {
 		"ft": 16384,
-		"iS": 30296,
+		"iS": 110477,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01.jpg": {
@@ -21200,7 +21200,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-02-small.jpg": {
@@ -21211,7 +21211,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-02-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-02.jpg": {
@@ -21222,7 +21222,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-03-small.jpg": {
@@ -21233,7 +21233,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-03-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-03.jpg": {
@@ -21244,7 +21244,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-04-small.jpg": {
@@ -21255,7 +21255,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-04-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-04.jpg": {
@@ -21266,17 +21266,17 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/egyptian-artifact-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/endangered-species-revenge-logo.png": {
 		"ft": 32768,
-		"iS": 7707,
+		"iS": 3385,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/endangered-species-revenge-logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -21296,8 +21296,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/esr-logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -21319,7 +21319,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/feature-african-painted-dogs.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/figures/african-painted-dog-portrait.jpg": {
@@ -21335,34 +21335,34 @@
 		},
 	"/wp-content/themes/esr_twentynineteen/images/figures/moon-bear-cub-in-wild.jpg": {
 		"ft": 16384,
-		"iS": 251847,
+		"iS": 301346,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/figures/moon-bear-cub-in-wild.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/hero-moon-bear-rescue.jpg": {
 		"ft": 16384,
-		"iS": 255863,
+		"iS": 301346,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/hero-moon-bear-rescue.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/peter-gottesman-avatar.png": {
 		"ft": 32768,
-		"iS": 14011,
+		"iS": 13998,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/peter-gottesman-avatar.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -21372,8 +21372,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/select-arrows.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -21389,79 +21389,79 @@
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog-alternate.jpg": {
 		"ft": 16384,
-		"iS": 162388,
+		"iS": 210761,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog-alternate.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog.jpg": {
 		"ft": 16384,
-		"iS": 243685,
+		"iS": 182505,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-african-painted-dog.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-carbonita.jpg": {
 		"ft": 16384,
-		"iS": 179592,
+		"iS": 141533,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-carbonita.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-cheetah.jpg": {
 		"ft": 16384,
-		"iS": 353278,
+		"iS": 295029,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-cheetah.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-coral-climate-change.jpg": {
 		"ft": 16384,
-		"iS": 438245,
+		"iS": 343131,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-coral-climate-change.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-pink-dolphin.jpg": {
 		"ft": 16384,
-		"iS": 296387,
+		"iS": 255270,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-pink-dolphin.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/thumb-video-smyke.jpg": {
 		"ft": 16384,
-		"iS": 118909,
+		"iS": 86015,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/thumb-video-smyke.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dog.svg": {
@@ -21469,16 +21469,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dog.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dogs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/esr_twentynineteen/images/torn-bottom-african-painted-dogs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

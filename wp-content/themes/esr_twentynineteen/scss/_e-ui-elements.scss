@@ -104,10 +104,19 @@ $gradients: true;
   [class*="shadow"]{ box-shadow: none !important; }
   img.show-on-mobile{ @include opacity(1); }
   .character{ max-width: 50%; }
+
+  .card{
+    > .torn-bottom{
+      &::before {
+        display: block !important;
+      }
+    }
+  }
   
   .card.african-painted-dog{
     > .torn-bottom{
       &::before {
+        display: block;
         @include apply-background-image('torn-bottom-african-painted-dog', '.svg');
       }
     }
@@ -144,12 +153,6 @@ $gradients: true;
       }
     }
   }  
-
-
-
-
-
-
 }
 
 $featured-panel: true;
@@ -170,6 +173,14 @@ $featured-panel: true;
     }
     
     .card-img-overlay{ @extend .px-0; }
+
+    .card{
+      > .torn-bottom{
+        &::before {
+          display: none;
+        }
+      }
+    }
 
     @each $breakpoint in map-keys($grid-breakpoints) {
       $next: breakpoint-next($breakpoint, $grid-breakpoints);

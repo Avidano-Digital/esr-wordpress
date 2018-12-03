@@ -12,7 +12,7 @@
   
   ?>
 
-  <section class="featured-panel responsive-md">
+  <section class="featured-panel responsive-md torn-bottom">
 
     <div class="card <?php if( !empty($class_name) ) echo $class_name ?>">
 
@@ -24,12 +24,11 @@
         <?php endif; ?>
       </div>
 
-      <!-- .overlay-gradient-y-black -->
       <div class="card-img-overlay d-flex">
 
         <div class="container align-self-center">
 
-          <div class="text-white text-center">
+          <div class="text-white text-center mb-6 mb-md-0">
             <img class="mb-2" src="<?php echo $character_image['url']; ?>" alt="<?php echo $character_image['alt'] ?>">
             <h1 class="card-title display-3">
               <?php the_title(); ?>

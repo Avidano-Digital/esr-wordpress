@@ -288,7 +288,8 @@ button#toggle-device-menu{
 
 $torn-height: 36px;
 
-[class*="torn-"]{
+[class*="torn-"], 
+.wrap-card-image{
   // border:12px solid red;
 
   @extend .position-relative;
