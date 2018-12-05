@@ -288,10 +288,7 @@ button#toggle-device-menu{
 
 $torn-height: 36px;
 
-[class*="torn-"], 
-.wrap-card-image{
-  // border:12px solid red;
-
+[class*="torn-"]{
   @extend .position-relative;
 
   &::before{
@@ -302,7 +299,6 @@ $torn-height: 36px;
 
     left: 0;
     height: $torn-height;
-    // border: none;
   }
 }
 
@@ -343,10 +339,13 @@ article{
 
   }
 
+  // .figure-caption{ @extend .text-center; }
+
 }
 
 
 
+.contain {object-fit: cover;}
 
 .mobile-margin-offset-x{
 

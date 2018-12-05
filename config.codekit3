@@ -21322,6 +21322,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/themes/esr_twentynineteen/images/figures/adult-captive-moon-bear.jpg": {
+		"ft": 16384,
+		"iS": 113022,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/figures/adult-captive-moon-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/esr_twentynineteen/images/figures/african-painted-dog-portrait.jpg": {
 		"ft": 16384,
 		"iS": 184589,
@@ -21333,6 +21344,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/themes/esr_twentynineteen/images/figures/captive-moon-bear-close-up.jpg": {
+		"ft": 16384,
+		"iS": 107131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/figures/captive-moon-bear-close-up.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/figures/extraction-of-bile-from-captive-moon-bear-in-china.jpg": {
+		"ft": 16384,
+		"iS": 117086,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/figures/extraction-of-bile-from-captive-moon-bear-in-china.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/themes/esr_twentynineteen/images/figures/moon-bear-cub-in-wild.jpg": {
 		"ft": 16384,
 		"iS": 301346,
@@ -21342,6 +21375,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/figures/rescue-of-a-moon-bear.jpg": {
+		"ft": 16384,
+		"iS": 134701,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/figures/rescue-of-a-moon-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/gallery/moon-bear-01.jpg": {
+		"ft": 16384,
+		"iS": 29018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/gallery/moon-bear-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/gallery/moon-bear-02.jpg": {
+		"ft": 16384,
+		"iS": 24939,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/gallery/moon-bear-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/esr_twentynineteen/images/gallery/moon-bear-03.jpg": {
+		"ft": 16384,
+		"iS": 29018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/gallery/moon-bear-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/hero-moon-bear-rescue.jpg": {
@@ -21382,6 +21459,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/select-arrows.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/super-bear-and-panda-girl.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/super-bear-and-panda-girl.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -22210,6 +22297,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/adult-captive-moon-bear-320x180.jpg": {
+		"ft": 16384,
+		"iS": 22923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/adult-captive-moon-bear-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/adult-captive-moon-bear.jpg": {
+		"ft": 16384,
+		"iS": 113022,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/adult-captive-moon-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/captive-moon-bear-close-up-320x180.jpg": {
+		"ft": 16384,
+		"iS": 20369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/captive-moon-bear-close-up-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/captive-moon-bear-close-up.jpg": {
+		"ft": 16384,
+		"iS": 107131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/captive-moon-bear-close-up.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/character-superbear-small.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -22219,6 +22350,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/uploads/2018/12/extraction-of-bile-from-captive-moon-bear-in-china-320x228.jpg": {
+		"ft": 16384,
+		"iS": 26308,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/extraction-of-bile-from-captive-moon-bear-in-china-320x228.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/extraction-of-bile-from-captive-moon-bear-in-china.jpg": {
+		"ft": 16384,
+		"iS": 117086,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/extraction-of-bile-from-captive-moon-bear-in-china.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/wp-content/uploads/2018/12/hero-moon-bear-rescue-320x180.jpg": {
 		"ft": 16384,
@@ -22263,6 +22416,38 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/wp-content/uploads/2018/12/rescue-of-a-moon-bear-320x228.jpg": {
+		"ft": 16384,
+		"iS": 24459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/rescue-of-a-moon-bear-320x228.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/rescue-of-a-moon-bear.jpg": {
+		"ft": 16384,
+		"iS": 134701,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/rescue-of-a-moon-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/super-bear-and-panda-girl.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/12/super-bear-and-panda-girl.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-cron.php": {
 		"cB": 0,
