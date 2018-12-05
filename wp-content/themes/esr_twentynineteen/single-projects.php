@@ -170,24 +170,24 @@
 
         <div class="row no-gutters">
 
-          <div class="col-8 bg-danger">
+          <div class="col-8">
               <img class="flex-grow-1" src="<?php echo $images[0]['url']; ?>" alt="<?php echo $image[0]['alt']; ?>">
           </div>
           <!-- .col -->
 
-          <div class="col-4 bg-warning">
+          <div class="col-4">
 
             <div class="row">
 
-            <div class="col-12">
-                <img class="" src="<?php echo $images[1]['url']; ?>" alt="<?php echo $image[1]['alt']; ?>">
-            </div>
-            <!-- .col -->
+              <div class="col-12">
+                  <img class="" src="<?php echo $images[1]['url']; ?>" alt="<?php echo $image[1]['alt']; ?>">
+              </div>
+              <!-- .col -->
 
-            <div class="col-12">
-                <img src="<?php echo $images[2]['url']; ?>" alt="<?php echo $image[2]['alt']; ?>">
-            </div>
-            <!-- .col -->
+              <div class="col-12">
+                  <img src="<?php echo $images[2]['url']; ?>" alt="<?php echo $image[2]['alt']; ?>">
+              </div>
+              <!-- .col -->
 
             </div>
             <!-- .row -->

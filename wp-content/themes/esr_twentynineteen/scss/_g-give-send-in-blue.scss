@@ -31,7 +31,11 @@ $give-form: 'div[id*="give-form"]';
     { display: none; }
   }
 
-  legend{ @extend .fw-black; }
+  legend{ 
+    @extend .fw-black;
+    @extend .mb-2;
+
+  }
   fieldset{ @extend .form-group; }
   label{ @extend .fs-md; }
 
@@ -63,6 +67,7 @@ $give-form: 'div[id*="give-form"]';
     @extend .text-primary;
     @extend .btn-block;
     @extend .btn-lg;
+    @extend .font-weight-bold;
 
     &.give-submit, 
     &.give-default-level,
