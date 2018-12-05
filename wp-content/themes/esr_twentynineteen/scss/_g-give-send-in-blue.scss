@@ -159,7 +159,7 @@ $give-form: 'div[id*="give-form"]';
   }
 
   div.give-progress-bar{
-    background: $gray-400;
+    @extend .bg-opacity-black-10;
   
     span{
       @extend .d-inline-block;
