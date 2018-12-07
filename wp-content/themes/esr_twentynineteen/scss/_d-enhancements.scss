@@ -99,6 +99,8 @@ body{
 // Make all images responsive by default
 img{ @extend .img-fluid; }
 
+hr{ @extend .my-0; }
+
 ////////////////////////////////////////
 // Sticky Top
 ////////////////////////////////////////

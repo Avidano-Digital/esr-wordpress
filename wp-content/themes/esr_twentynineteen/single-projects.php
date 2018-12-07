@@ -49,7 +49,13 @@
 
   <!-- Article content -->
 
+  <div class="pb-7">
+
   <?php get_template_part( 'template-parts/article' ) ?>
+  <?php get_template_part( 'template-parts/share' ) ?>
+  </div>
+  <!-- .py-7 -->
+
     
 </main>
 <!-- #content -->

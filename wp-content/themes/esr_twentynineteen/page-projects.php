@@ -10,7 +10,7 @@ get_header(); ?>
 
   <section class="py-7">
 
-    <header class="mb-5">
+    <header class="container bg-danger">
       <div class="narrow text-center">
         <h1 class="display-4"><?php the_title(); ?></h1>
       </div>
@@ -20,7 +20,7 @@ get_header(); ?>
 
     <?php if( have_rows('conservation_project_summary') ): ?>
 
-    <div class="container-fluid wide mb-child-border">
+    <div class="container-fluid wide mb-child-border my-7">
 
       <?php while( have_rows('conservation_project_summary') ): the_row(); 
 
@@ -83,11 +83,11 @@ get_header(); ?>
 
     <?php endif; /* conservation_project_summary */ ?>
 
+    <?php get_template_part( 'template-parts/share' ) ?>
+
   </section>
   <!-- .container-fluid -->
 
-  <?php get_template_part( 'template-parts/share' ) ?>
-    
 </main>
 <!-- #content -->
     

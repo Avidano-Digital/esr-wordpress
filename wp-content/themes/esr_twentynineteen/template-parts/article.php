@@ -1,14 +1,16 @@
-<article class="bg-warning">
+<article>
 
-    <?php if( have_rows('article_section') ) : ?>
+    <?php $i = 1; ?>
 
-    <?php while( have_rows('article_section') ) : the_row();
-    
-    $section_id = get_sub_field('section_id');  
-    
+    <?php if( have_rows('article_section') ) : while( have_rows('article_section', $sections) ) : the_row();
+
+    $section_count = count( get_field('article_section', $sections) );
+
+    $section_id = get_sub_field('section_id'); 
+
     ?>
-
-    <section class="container bg-danger" id="<?php echo $section_id; ?>">
+    
+    <section class="container py-7" id="<?php echo $section_id; ?>">
 
         <?php if( have_rows('section_content') ) : while( have_rows('section_content') ) : the_row(); ?>
 
@@ -86,7 +88,7 @@
 
         ?>
 
-        <div class="wide my-6">
+        <div class="two-figure-block my-6">
 
             <div class="row matrix-gutter">
 
@@ -170,13 +172,16 @@
 
         <?php endif; /* text_block | figure_block | donate_block */ ?>
 
-
-    <?php endwhile; endif; /* section_content */ ?>
+        <?php endwhile; endif; /* section_content */ ?>
 
     </section>
 
-    <?php endwhile; /* article_section */ ?>
-
-<?php endif; /* article_section */ ?>
+    <?php if( $i < $section_count): ?>
+    
+    <hr>
+    
+    <?php endif; ?>
+    
+    <?php $i++; endwhile; endif; /* article_section */ ?>
 
 </article>

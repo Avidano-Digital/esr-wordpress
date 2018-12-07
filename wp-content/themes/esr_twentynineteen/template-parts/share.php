@@ -1,4 +1,4 @@
-<div id="share" class="text-center mb-7">
+<div id="share" class="container text-center">
 
     <p class="fs-md"><em>Share this:</em></p>
 

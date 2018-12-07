@@ -329,29 +329,24 @@ $torn-height: 36px;
 
 article{
 
+  section > div:last-child {
+      @extend .my-0;
+    }
+
+  section > div:first-child {
+      @extend .mt-0;
+    }
+
   .text-block{
-
     @extend .narrow; 
-
-    // h2{ @extend .mb-4; }
-
-    // p{ @extend .fs-lg; }
-
   }
 
-  // .figure-caption{ @extend .text-center; }
-
 }
-
-
-
-.contain {object-fit: cover;}
 
 .mobile-margin-offset-x{
 
-@include media-breakpoint-down('xs') {
-
-  margin-left: -(($grid-gutter-width/2));
-  margin-right: -(($grid-gutter-width/2));
-}
+  @include media-breakpoint-down('xs') {
+    margin-left: -(($grid-gutter-width/2));
+    margin-right: -(($grid-gutter-width/2));
+  }
 }
