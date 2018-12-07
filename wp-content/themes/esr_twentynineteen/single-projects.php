@@ -45,7 +45,7 @@
   </section>
   <!-- .featured-panel -->
 
-  <?php endwhile;  endif; /* hero */ ?>
+  <?php endwhile; endif; /* hero */ ?>
 
   <!-- Article content -->
 

@@ -13,7 +13,6 @@
   <!-- Article content -->
 
   <?php get_template_part( 'template-parts/article' ) ?>
-
   <?php get_template_part( 'template-parts/share' ) ?>
 
   </section>
