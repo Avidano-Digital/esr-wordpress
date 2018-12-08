@@ -9,7 +9,7 @@ get_header(); ?>
 
   <section class="py-7">
 
-    <header class="container bg-warning">
+    <header class="container">
       <div class="narrow text-center">
         <h1 class="display-4"><?php the_title(); ?></h1>
       </div>
@@ -17,7 +17,7 @@ get_header(); ?>
 
     <!-- Videos -->
 
-    <section class="container-fluid wide bg-danger py-7" id="esr-shorts">
+    <section class="container-fluid wide py-7" id="esr-shorts">
       
       <?php get_template_part('template-parts/featured-video-group'); ?>
       
@@ -26,7 +26,7 @@ get_header(); ?>
 
     <hr>
       
-    <section class="container-fluid wide bg-danger py-7" id="project-videos">
+    <section class="container-fluid wide py-7" id="project-videos">
 
       <?php get_template_part('template-parts/project-video-group'); ?>
 

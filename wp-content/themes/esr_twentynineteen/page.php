@@ -4,7 +4,7 @@
 
   <section class="py-7">
 
-    <header class="container bg-warning">
+    <header class="container">
       <div class="narrow text-center">
         <h1 class="display-4"><?php the_title(); ?></h1>
       </div>

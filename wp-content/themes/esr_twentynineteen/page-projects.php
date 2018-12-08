@@ -10,7 +10,7 @@ get_header(); ?>
 
   <section class="py-7">
 
-    <header class="container bg-danger">
+    <header class="container">
       <div class="narrow text-center">
         <h1 class="display-4"><?php the_title(); ?></h1>
       </div>
