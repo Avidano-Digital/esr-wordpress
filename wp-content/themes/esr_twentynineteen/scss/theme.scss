@@ -62,6 +62,12 @@ h6, .h6,
 dt
 { @extend .fw-regular; }
 
+.modal-title{
+  @extend .f-secondary;
+  @extend .fs-lg;
+  @extend .font-weight-normal;
+}
+
 ////////////////////////////////////////
 // Global Navigation
 ////////////////////////////////////////

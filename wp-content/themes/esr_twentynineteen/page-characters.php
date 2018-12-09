@@ -28,7 +28,7 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-picasso-full.svg" alt="Picasso the Painted Dog">
               <div class="card-body text-center">
                 <h3 class="card-title">Picasso</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">The Painted Dog</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">the Painted Dog</h4>
                 <p class="card-text text-left">
                   Picasso is the sneakiest of ESR’s characters! He’s so furious that African painted dogs have become
                   endangered — he’s always a second away from smacking someone!
@@ -49,7 +49,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Cleopatra</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">The Cheetah</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">the Cheetah</h4>
                 <p class="card-text text-left">
                   Speed is her middle name, so there’s no escaping Cleopatra! She may not be tricky, but her blind rage at
                   the decline of cheetah populations has made her kooky…and dangerous!
@@ -70,7 +70,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Olivia</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">From Bolivia</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">from Bolivia</h4>
                 <p class="card-text text-left">
                   This pink dolphin looks cute — but don’t be fooled by her smile! Olivia cleverly hides her anger and uses
                   her intelligence to plot revenge against anyone who harms her friends and family.
@@ -91,7 +91,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Superbear &amp; Panda Girl</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">Lorem Ipsum Dolor</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">lorem Ipsum Dolor</h4>
                 <p class="card-text text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
                   asperiores corporis
@@ -113,7 +113,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Antonio the Defiant</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">The Anteater Giant</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">the Anteater Giant</h4>
                 <p class="card-text text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
                   asperiores corporis
@@ -135,7 +135,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Jed & Amanda</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">The Scheming Red Pandas</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">the Scheming Red Pandas</h4>
                 <p class="card-text text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
                   asperiores corporis
@@ -157,7 +157,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Bertha</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">The Burrowing Owl</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">the Burrowing Owl</h4>
                 <p class="card-text text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
                   asperiores corporis
@@ -176,7 +176,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Splash</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">The Fishing Cat</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">the Fishing Cat</h4>
                 <p class="card-text text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
                   asperiores corporis
@@ -213,7 +213,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Anita</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">aka Carbonita</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">AKA Carbonita</h4>
                 <p class="card-text text-left">
                   The brilliant young environmental scientist Anita, whose disastrous lab experiment to reverse climate
                   change

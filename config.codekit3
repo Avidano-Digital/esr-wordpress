@@ -21727,6 +21727,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/themes/esr_twentynineteen/images/newsletter-feature.jpg": {
+		"ft": 16384,
+		"iS": 120785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/newsletter-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/esr_twentynineteen/images/peter-gottesman-avatar.png": {
 		"ft": 32768,
 		"iS": 13998,
@@ -23603,6 +23614,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/wp-content/uploads/2018/12/character-superbear-and-panda-girl-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/12/character-superbear-and-panda-girl-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/uploads/2018/12/character-superbear-small.svg": {
 		"ft": 2097152,

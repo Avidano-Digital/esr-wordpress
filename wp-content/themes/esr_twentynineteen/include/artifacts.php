@@ -80,7 +80,7 @@
                 <!-- Modal Header -->
                 <div class="row align-items-center py-2">
                     <div class="col">
-                        <h2 class="modal-title h4" id="green-stone-falcon-headed-crocodile-title">Green Stone Falcon-Headed Crocodile</h2>
+                        <h2 class="modal-title" id="green-stone-falcon-headed-crocodile-title">Green Stone Falcon-Headed Crocodile</h2>
                     </div>
                     <div class="col-auto">
                         <button type="button" class="btn no-btn-style" data-dismiss="modal" aria-label="Close">
@@ -151,7 +151,7 @@
                 <!-- Modal Header -->
                 <div class="row align-items-center py-2">
                     <div class="col">
-                        <h2 class="modal-title h4" id="carnelian-lion-headed-tawret-title">Carnelian Lion-Headed Tawret</h2>
+                        <h2 class="modal-title" id="carnelian-lion-headed-tawret-title">Carnelian Lion-Headed Tawret</h2>
                     </div>
                     <div class="col-auto">
                         <button type="button" class="btn no-btn-style" data-dismiss="modal" aria-label="Close">
@@ -211,7 +211,7 @@
                 <!-- Modal Header -->
                 <div class="row align-items-center py-2">
                     <div class="col">
-                        <h2 class="modal-title h4" id="gold-sakhmet-title">Gold Sakhmet</h2>
+                        <h2 class="modal-title" id="gold-sakhmet-title">Gold Sakhmet</h2>
                     </div>
                     <div class="col-auto">
                         <button type="button" class="btn no-btn-style" data-dismiss="modal" aria-label="Close">
@@ -271,7 +271,7 @@
                 <!-- Modal Header -->
                 <div class="row align-items-center py-2">
                     <div class="col">
-                        <h2 class="modal-title h4" id="amethyst-tawret-title">Amethyst Tawret</h2>
+                        <h2 class="modal-title" id="amethyst-tawret-title">Amethyst Tawret</h2>
                     </div>
                     <div class="col-auto">
                         <button type="button" class="btn no-btn-style" data-dismiss="modal" aria-label="Close">

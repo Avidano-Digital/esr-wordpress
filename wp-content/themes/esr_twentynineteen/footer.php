@@ -1,6 +1,52 @@
 <footer>
 
-    <section class="container-fluid bg-primary py-6" id="newsletter">
+<section class="featured-panel responsive-sm">
+
+<div class="card bg-primary">
+    <img class="card-img opacity-10" src="<?php echo get_template_directory_uri(); ?>/images/newsletter-feature.jpg" alt="Card image">
+    <div class="card-img-overlay d-flex">
+        <div class="container align-self-center">
+            <div class="narrow">
+
+                <form class="sib_signup_form" method="post">
+
+                    <div class="sib_loader" style="display:none;">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    
+                    <input type="hidden" name="sib_form_action" value="subscribe_form_submit">
+                    <input type="hidden" name="sib_form_id" value="1">
+                    <input type="hidden" name="sib_form_alert_notice" value="">
+                    <div class="sib_signup_box_inside_1">
+
+                        <h2 class="h3 text-center text-white mb-4">Join Our Newsletter</h2>
+
+                        <div class="input-group shadow">
+
+                            <input type="email" class="form-control form-control-lg border-white rounded-0 sib-email-area" name="email" placeholder="Add your email" required="required">
+
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-lg btn-secondary text-primary rounded-0">
+                                    <span class="fas fa-plus"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- .sib_signup_box_inside_1 -->
+
+                </form>
+
+            </div>
+            <!-- .narrow -->
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+    <section class="container-fluid bg-primary py-6 d-none" id="newsletter">
 
         <div class="narrow">
 
