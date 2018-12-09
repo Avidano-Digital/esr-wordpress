@@ -21254,6 +21254,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/esr_twentynineteen/images/character-antonio-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-antonio-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/character-bertha-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-bertha-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/wp-content/themes/esr_twentynineteen/images/character-carbonita-full.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -21309,6 +21329,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-cleopatra-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/character-jed-and-amanda-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-jed-and-amanda-full.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -21379,6 +21409,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-smyke-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/character-splash-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-splash-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/images/character-superbear-and-panda-girl-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/esr_twentynineteen/images/character-superbear-and-panda-girl-full.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -22004,6 +22054,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/wp-content/themes/esr_twentynineteen/lib/theme-support.php",
+		"oF": 0
+		},
+	"/wp-content/themes/esr_twentynineteen/page-characters.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/page-characters.php",
 		"oF": 0
 		},
 	"/wp-content/themes/esr_twentynineteen/page-projects.php": {
