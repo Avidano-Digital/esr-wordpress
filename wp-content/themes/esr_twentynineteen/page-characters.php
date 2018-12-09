@@ -2,12 +2,12 @@
 
 <main id="content">
 
-  <section class="pt-7 pb-8 bg-light torn-bottom">
+  <section class="container-fluid bg-light torn-bottom pt-7 pb-8">
 
-    <header class="container">
-      <div class="narrow text-center">
-        <h1 class="display-4"><?php the_title(); ?></h1>
-      </div>
+    <header class="narrow text-center">
+        <h1 class="display-4">
+          <?php the_title(); ?>
+        </h1>
     </header>
 
   </section>
