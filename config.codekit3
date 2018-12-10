@@ -21756,7 +21756,7 @@
 		"oAP": "/wp-content/themes/esr_twentynineteen/images/gallery/our-mission-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/esr_twentynineteen/images/gallery/our-mission-cheetah.jpg": {
@@ -23852,7 +23852,7 @@
 		},
 	"/wp-content/uploads/2018/12/our-mission-01-1-320x240.jpg": {
 		"ft": 16384,
-		"iS": 14832,
+		"iS": 16143,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/our-mission-01-1-320x240.jpg",
@@ -23863,7 +23863,7 @@
 		},
 	"/wp-content/uploads/2018/12/our-mission-01-1.jpg": {
 		"ft": 16384,
-		"iS": 97674,
+		"iS": 111447,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/our-mission-01-1.jpg",
@@ -23918,7 +23918,7 @@
 		},
 	"/wp-content/uploads/2018/12/our-mission-03-320x240.jpg": {
 		"ft": 16384,
-		"iS": 11624,
+		"iS": 11656,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/our-mission-03-320x240.jpg",
@@ -23929,7 +23929,7 @@
 		},
 	"/wp-content/uploads/2018/12/our-mission-03.jpg": {
 		"ft": 16384,
-		"iS": 69054,
+		"iS": 69884,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/our-mission-03.jpg",
