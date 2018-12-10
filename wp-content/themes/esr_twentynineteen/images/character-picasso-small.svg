@@ -1,4 +1,4 @@
-<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="260" viewBox="0 0 170 260">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="260" viewBox="0 0 170 260">
   <defs>
     <symbol id="Picasso-2" data-name="Picasso" viewBox="0 0 329.294 517.829">
       <path d="M45.71625,411.65562c-.24213.18677-.50159.37134-.73731.55878C20.12689,431.97624,0,426.4644,0,426.4644s15.0694,47.27826,67.62848,36.52453C44.65851,449.5709,42.10535,427.55033,45.71625,411.65562Z" fill="#fff"/>
@@ -67,5 +67,7 @@
     </symbol>
   </defs>
   <title>character-picasso-small</title>
-  <use width="329.29409" height="517.82871" transform="scale(0.51626 0.5021)" xlink:href="#Picasso-2"/>
+  <g id="Background">
+    <use width="329.29409" height="517.82871" transform="scale(0.51626 0.5021)" xlink:href="#Picasso-2"/>
+  </g>
 </svg>

@@ -1,4 +1,4 @@
-<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="270" viewBox="0 0 180 270">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="270" viewBox="0 0 180 270">
   <defs>
     <symbol id="Cleopatra" data-name="Cleopatra" viewBox="0 0 357.815 536.277">
       <g>
@@ -102,5 +102,7 @@
     </symbol>
   </defs>
   <title>character-cleopatra-small</title>
-  <use width="357.81547" height="536.27668" transform="scale(0.50305 0.50347)" xlink:href="#Cleopatra"/>
+  <g id="Background">
+    <use width="357.81547" height="536.27668" transform="scale(0.50305 0.50347)" xlink:href="#Cleopatra"/>
+  </g>
 </svg>

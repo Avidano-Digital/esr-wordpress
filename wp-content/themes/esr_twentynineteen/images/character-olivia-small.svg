@@ -1,4 +1,4 @@
-<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="190" viewBox="0 0 230 190">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="190" viewBox="0 0 230 190">
   <defs>
     <symbol id="Olivia" data-name="Olivia" viewBox="0 0 451.187 364.811">
       <path d="M209.876,176.29754s-36.89832,18.86778-39.64155,37.96656c-2.793,19.44549,8.9333,60.36,18.14578,55.89337S193.126,246.089,196.476,239.389s27.35825-10.32913,27.35825-10.32913Z" fill="#9e5e70"/>
@@ -31,5 +31,7 @@
     </symbol>
   </defs>
   <title>character-olivia-small</title>
-  <use width="451.18726" height="364.81147" transform="scale(0.50977 0.51838)" xlink:href="#Olivia"/>
+  <g id="Background">
+    <use width="451.18726" height="364.81147" transform="scale(0.50977 0.51838)" xlink:href="#Olivia"/>
+  </g>
 </svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="260" viewBox="0 0 280 260">
+  <title>Color Palette</title>
+  <g id="SuperBear">
+    <rect x="10" y="210" width="260" height="40" fill="#112f41"/>
+    <rect x="10" y="10" width="260" height="40" fill="#65373c"/>
+    <rect x="10" y="60" width="260" height="40" fill="#a55a3b"/>
+    <rect x="10" y="110" width="260" height="40" fill="#a43b6c"/>
+    <rect x="10" y="160" width="260" height="40" fill="#972e41"/>
+  </g>
+</svg>
