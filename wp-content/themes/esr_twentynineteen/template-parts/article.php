@@ -164,7 +164,11 @@
 
         <div id="donate-block" class="mobile-margin-offset-x bg-light p-3 p-lg-5 my-6">
 
-            <h2 class="text-center text-green mb-4">Donate to the <?php the_title(); ?> Project</h2>
+            <?php if( is_page( 'donate' )) : ?>
+                <h2 class="text-center text-primary mb-4">Donate to Endangered Species Revenge</h2>
+            <?php else : ?>
+                <h2 class="text-center text-primary mb-4">Donate to the <?php the_title(); ?> Project</h2>
+            <?php endif; ?>
 
             <?php echo do_shortcode( get_sub_field('donation_form_shortcode') ); ?>
 

@@ -35,7 +35,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">African Painted Dog Project</a>
+                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">African Painted Dog Project</a>
               </div>
             </div>
 
@@ -56,7 +56,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Cheetah Project</a>
+                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Cheetah Project</a>
               </div>
             </div>
 
@@ -77,7 +77,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Pink Dolphin Rescue</a>
+                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Pink Dolphin Rescue</a>
               </div>
             </div>
 
@@ -99,7 +99,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Moon Bear Rescue</a>
+                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Moon Bear Rescue</a>
               </div>
             </div>
 
@@ -141,9 +141,6 @@
                   asperiores corporis
                   veritatis, cumque tenetur consectetur.
                 </p>
-              </div>
-              <div class="card-footer text-center">
-                <!-- <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Cheetah Project</a> -->
               </div>
             </div>
 
@@ -224,7 +221,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Carbonita</a>
+                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">More About Carbonita</a>
               </div>
             </div>
 
@@ -246,7 +243,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Make Smyke Smart</a>
+                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Make Smyke Smart</a>
               </div>
             </div>
 
