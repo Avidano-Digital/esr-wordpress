@@ -35,7 +35,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">African Painted Dog Project</a>
+                <a href="/projects/african-painted-dogs/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">African Painted Dog Project</a>
               </div>
             </div>
 
@@ -56,7 +56,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Cheetah Project</a>
+                <a href="/projects/cheetahs/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Cheetah Project</a>
               </div>
             </div>
 
@@ -77,7 +77,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Pink Dolphin Rescue</a>
+                <a href="/projects/pink-dolphin-rescue/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Pink Dolphin Rescue</a>
               </div>
             </div>
 
@@ -96,7 +96,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Moon Bear Rescue</a>
+                <a href="/projects/moon-bear-rescue/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Moon Bear Rescue</a>
               </div>
             </div>
 
@@ -113,9 +113,6 @@
                 <p class="card-text text-left">
                   The self-proclaimed King of the Amazon. A ruthless ruler with few followers. He threatens any person who tries to destroy the jungle - by rearing up on his two back legs and showing off his front hand’s gigantic hooked talons!
                 </p>
-              </div>
-              <div class="card-footer text-center">
-                <!-- <a href="#" class="btn btn-lg btn-secondary text-primary" title="Button Link">Cheetah Project</a> -->
               </div>
             </div>
 
@@ -198,16 +195,14 @@
                 <h3 class="card-title">Anita</h3>
                 <h4 class="card-subtitle mb-2 font-weight-normal">AKA Carbonita</h4>
                 <p class="card-text text-left">
-                  The brilliant young environmental scientist Anita, whose disastrous lab experiment to reverse climate
-                  change
-                  transforms her into the sinister, climate-change-loving Carbonita! As Carbonita, she seeks to destroy the
-                  environment – fueled by a psychotic rage against her parents, who forced her to donate her allowance to
-                  save
-                  Mexican pygmy raccoons. Each madcap episode teachesyouth 12-25 crucial ecological lessons!
+                The brilliant young environmental scientist Anita, whose disastrous lab experiment to reverse climate
+                change transforms her into the sinister, climate-change-loving Carbonita! As Carbonita, she seeks to destroy the
+                environment – fueled by a psychotic rage against her parents, who forced her to donate her allowance to
+                save Mexican pygmy raccoons. Each madcap episode teachesyouth 12-25 crucial ecological lessons!
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">More About Carbonita</a>
+                <a href="/characters/carbonita/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">More About Carbonita</a>
               </div>
             </div>
 
@@ -229,7 +224,7 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Make Smyke Smart</a>
+                <a href="/characters/smyke/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Make Smyke Smart</a>
               </div>
             </div>
 

@@ -22300,6 +22300,13 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/wp-content/themes/esr_twentynineteen/single-characters.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/esr_twentynineteen/single-characters.php",
+		"oF": 0
+		},
 	"/wp-content/themes/esr_twentynineteen/single-projects.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -23697,6 +23704,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/wp-content/uploads/2018/12/character-carbonita-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/uploads/2018/12/character-carbonita-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/uploads/2018/12/character-superbear-and-panda-girl-full.svg": {
 		"ft": 2097152,

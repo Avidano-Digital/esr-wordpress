@@ -33,8 +33,8 @@
         ?>
 
         <div class="figure-block <?php if( $narrow ) echo 'narrow' ?> my-6">
-            <figure class="figure my-0">
-                <img class="figure-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+            <figure class="figure my-0 w-100">
+                <img class="figure-img w-100" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
                 <figcaption class="figure-caption"><?php echo $caption; ?></figcaption>
             </figure>
         </div>
