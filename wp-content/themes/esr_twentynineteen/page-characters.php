@@ -87,15 +87,12 @@
           <div class="col-lg-4">
 
             <div class="card h-100">
-              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-superbear-and-panda-girl-full.svg"
-                alt="placeholder">
+              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-superbear-and-panda-girl-full.svg" alt="Superbear and Panda Girl, Fighting for Fellow Bears">
               <div class="card-body text-center">
                 <h3 class="card-title">Superbear &amp; Panda Girl</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">lorem Ipsum Dolor</h4>
+                <h4 class="card-subtitle mb-2 font-weight-normal">Fighting for Fellow Bears</h4>
                 <p class="card-text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
-                  asperiores corporis
-                  veritatis, cumque tenetur consectetur.
+                  This moon bear and panda fighting duo use their super powers and passion to rescue fellow bears held captive in the horrific “bear bile farming” industry of Asia.
                 </p>
               </div>
               <div class="card-footer text-center">
@@ -109,15 +106,12 @@
           <div class="col-lg-4">
 
             <div class="card h-100">
-              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-antonio-full.svg"
-                alt="placeholder">
+              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-antonio-full.svg" alt="Antonio the Defiant, Antonio the Defiant">
               <div class="card-body text-center">
                 <h3 class="card-title">Antonio the Defiant</h3>
                 <h4 class="card-subtitle mb-2 font-weight-normal">the Anteater Giant</h4>
                 <p class="card-text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
-                  asperiores corporis
-                  veritatis, cumque tenetur consectetur.
+                  The self-proclaimed King of the Amazon. A ruthless ruler with few followers. He threatens any person who tries to destroy the jungle - by rearing up on his two back legs and showing off his front hand’s gigantic hooked talons!
                 </p>
               </div>
               <div class="card-footer text-center">
@@ -131,15 +125,12 @@
           <div class="col-lg-4">
 
             <div class="card h-100">
-              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-jed-and-amanda-full.svg"
-                alt="placeholder">
+              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-jed-and-amanda-full.svg" alt="Jed and Amanda, the Scheming Red Pandas">
               <div class="card-body text-center">
-                <h3 class="card-title">Jed & Amanda</h3>
+                <h3 class="card-title">Jed &amp; Amanda</h3>
                 <h4 class="card-subtitle mb-2 font-weight-normal">the Scheming Red Pandas</h4>
                 <p class="card-text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
-                  asperiores corporis
-                  veritatis, cumque tenetur consectetur.
+                  These teen & toddler tricksters use their impish ingenuity to confound rivals.
                 </p>
               </div>
             </div>
@@ -150,15 +141,12 @@
           <div class="col-lg-4">
 
             <div class="card h-100">
-              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-bertha-full.svg"
-                alt="placeholder">
+              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-bertha-full.svg" alt="Bertha, the Burrowing Owl">
               <div class="card-body text-center">
                 <h3 class="card-title">Bertha</h3>
                 <h4 class="card-subtitle mb-2 font-weight-normal">the Burrowing Owl</h4>
                 <p class="card-text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
-                  asperiores corporis
-                  veritatis, cumque tenetur consectetur.
+                  Twice the size of normal burrowing owls, she burrows vast estates below golf courses, and sells them for many mice to other burrowing owls, who want to shade themselves from the tropical Aruban sun. She’s not afraid to throw her weight around to pounce on people or invasive boas!
                 </p>
               </div>
             </div>
@@ -175,9 +163,7 @@
                 <h3 class="card-title">Splash</h3>
                 <h4 class="card-subtitle mb-2 font-weight-normal">the Fishing Cat</h4>
                 <p class="card-text text-left">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque quia officiis maxime delectus
-                  asperiores corporis
-                  veritatis, cumque tenetur consectetur.
+                  Unlike other cats, Splash loves water, swimming…and fishing! He drenches people with his ungraceful leaps into rivers, and by drumming his paws superfast! He also delivers underwater bites when particularly upset!
                 </p>
               </div>
             </div>
