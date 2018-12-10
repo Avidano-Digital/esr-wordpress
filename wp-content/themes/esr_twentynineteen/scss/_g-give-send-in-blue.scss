@@ -1,4 +1,3 @@
-
 ////////////////////////////////////////
 // Give Forms
 ////////////////////////////////////////
@@ -59,7 +58,14 @@ $give-form: 'div[id*="give-form"]';
   #ffm-project_selected,
   .give-select, 
   .give-btn
-  { @extend .rounded-0; }
+  { 
+    @extend .rounded-0;
+  }
+
+  #ffm-project_selected{
+    @extend .custom-select;
+    padding: 30px;
+  }
 
   .give-btn{
     @extend .btn;
@@ -83,10 +89,15 @@ $give-form: 'div[id*="give-form"]';
   input[type="text"],
   input[type="email"],
   input[type="password"],
-  label
+  #ffm-project_selected,
   {
     @extend .fs-rg;
     @extend .font-weight-normal;
+  }
+
+  label{
+    @extend .fs-md;
+
   }
 
   .give-amount-top,
@@ -98,7 +109,13 @@ $give-form: 'div[id*="give-form"]';
     @extend .p-2;
   }
 
-  $image_url: '/wp-content/themes/endangered-species-revenge/images/';
+
+  #ffm-project_selected{
+    @extend .h-100;
+    @extend .text-body;
+  }
+
+  $image_url: '/wp-content/themes/esr_twentynineteen/images/';
   .give-select,
   #ffm-project_selected
   {
