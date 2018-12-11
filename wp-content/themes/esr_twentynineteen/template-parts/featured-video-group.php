@@ -11,7 +11,7 @@ if( $featured_video_group ): ?>
     
     <h2 class="text-center mb-4"><?php echo $headline; ?></h2>
 
-    <div class="row matrix-border">
+    <div class="row matrix-border mobile-margin-offset-x">
 
     <?php
 

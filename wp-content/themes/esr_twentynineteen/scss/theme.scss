@@ -353,9 +353,8 @@ article{
 }
 
 .mobile-margin-offset-x{
-
   @include media-breakpoint-down('xs') {
-    margin-left: -(($grid-gutter-width/2));
-    margin-right: -(($grid-gutter-width/2));
+    margin-left: -(($grid-gutter-width/2) + $border-width);
+    margin-right: -(($grid-gutter-width/2) + $border-width);
   }
 }

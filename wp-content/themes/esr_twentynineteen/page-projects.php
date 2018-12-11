@@ -38,7 +38,7 @@ get_header(); ?>
 
       ?>
     
-      <section class="featured-panel responsive-xl">
+      <section class="featured-panel responsive-xl mobile-margin-offset-x">
 
         <div class="card <?php if( !empty($class_name) ) echo $class_name ?>">
 
