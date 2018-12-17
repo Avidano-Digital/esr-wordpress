@@ -32339,7 +32339,7 @@
 "projectAttributes": {
 	"creationDate": 564396642.697474,
 	"displayValue": "esr-wordpress",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "/project-icon.png",
 	"iconImageWasSetByUser": 0
 	},
