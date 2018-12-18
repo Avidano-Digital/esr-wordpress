@@ -28,7 +28,7 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-picasso-full.svg" alt="Picasso the Painted Dog">
               <div class="card-body text-center">
                 <h3 class="card-title">Picasso</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">the Painted Dog</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">the Painted Dog</h4>
                 <p class="card-text text-left">
                   Picasso is the sneakiest of ESR’s characters! He’s so furious that African painted dogs have become
                   endangered — he’s always a second away from smacking someone!
@@ -49,7 +49,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Cleopatra</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">the Cheetah</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">the Cheetah</h4>
                 <p class="card-text text-left">
                   Speed is her middle name, so there’s no escaping Cleopatra! She may not be tricky, but her blind rage at
                   the decline of cheetah populations has made her kooky…and dangerous!
@@ -70,7 +70,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Olivia</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">from Bolivia</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">from Bolivia</h4>
                 <p class="card-text text-left">
                   This pink dolphin looks cute — but don’t be fooled by her smile! Olivia cleverly hides her anger and uses
                   her intelligence to plot revenge against anyone who harms her friends and family.
@@ -90,7 +90,7 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-superbear-and-panda-girl-full.svg" alt="Superbear and Panda Girl, Fighting for Fellow Bears">
               <div class="card-body text-center">
                 <h3 class="card-title">Superbear &amp; Panda Girl</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">Fighting for Fellow Bears</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">Fighting for Fellow Bears</h4>
                 <p class="card-text text-left">
                   This moon bear and panda fighting duo use their super powers and passion to rescue fellow bears held captive in the horrific “bear bile farming” industry of Asia.
                 </p>
@@ -109,7 +109,7 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-antonio-full.svg" alt="Antonio the Defiant, Antonio the Defiant">
               <div class="card-body text-center">
                 <h3 class="card-title">Antonio the Defiant</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">the Anteater Giant</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">the Anteater Giant</h4>
                 <p class="card-text text-left">
                   The self-proclaimed King of the Amazon. A ruthless ruler with few followers. He threatens any person who tries to destroy the jungle - by rearing up on his two back legs and showing off his front hand’s gigantic hooked talons!
                 </p>
@@ -125,7 +125,7 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-jed-and-amanda-full.svg" alt="Jed and Amanda, the Scheming Red Pandas">
               <div class="card-body text-center">
                 <h3 class="card-title">Jed &amp; Amanda</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">the Scheming Red Pandas</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">the Scheming Red Pandas</h4>
                 <p class="card-text text-left">
                   These teen & toddler tricksters use their impish ingenuity to confound rivals.
                 </p>
@@ -141,7 +141,7 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-bertha-full.svg" alt="Bertha, the Burrowing Owl">
               <div class="card-body text-center">
                 <h3 class="card-title">Bertha</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">the Burrowing Owl</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">the Burrowing Owl</h4>
                 <p class="card-text text-left">
                   Twice the size of normal burrowing owls, she burrows vast estates below golf courses, and sells them for many mice to other burrowing owls, who want to shade themselves from the tropical Aruban sun. She’s not afraid to throw her weight around to pounce on people or invasive boas!
                 </p>
@@ -158,9 +158,9 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Splash</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">the Fishing Cat</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">the Fishing Cat</h4>
                 <p class="card-text text-left">
-                  Unlike other cats, Splash loves water, swimming…and fishing! He drenches people with his ungraceful leaps into rivers, and by drumming his paws superfast! He also delivers underwater bites when particularly upset!
+                Unlike other cats, Splash loves water, swimming...and fishing! He drenches people with his ungraceful leaps into rivers, and by drumming his paws like a wildcat! He delivers underwater bites when particularly upset!
                 </p>
               </div>
             </div>
@@ -192,13 +192,13 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-carbonita-full.svg"
                 alt="placeholder">
               <div class="card-body text-center">
-                <h3 class="card-title">Anita</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">AKA Carbonita</h4>
+                <h3 class="card-title">Carbonita</h3>
+                <h4 class="card-subtitle mb-2 font-weight-bold">AKA Anita</h4>
                 <p class="card-text text-left">
                 The brilliant young environmental scientist Anita, whose disastrous lab experiment to reverse climate
                 change transforms her into the sinister, climate-change-loving Carbonita! As Carbonita, she seeks to destroy the
                 environment – fueled by a psychotic rage against her parents, who forced her to donate her allowance to
-                save Mexican pygmy raccoons. Each madcap episode teachesyouth 12-25 crucial ecological lessons!
+                save Mexican pygmy raccoons. Each madcap episode teaches youth 12-25 crucial ecological lessons!
                 </p>
               </div>
               <div class="card-footer text-center">
@@ -216,7 +216,7 @@
                 alt="placeholder">
               <div class="card-body text-center">
                 <h3 class="card-title">Smyke</h3>
-                <h4 class="card-subtitle mb-2 font-weight-normal">Make Smyke Smart</h4>
+                <h4 class="card-subtitle mb-2 font-weight-bold">Make Smyke Smart</h4>
                 <p class="card-text text-left">
                   Smyke is not smart. But, he’s not such a bad guy. He just doesn’t know anything about animals. When he
                   learns lessons about animals…he becomes Smart Smyke! It’s ESR’s job to “Make Smyke Smart!” <sup>TM</sup>. Each amusing episode
