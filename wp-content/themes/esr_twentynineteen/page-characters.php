@@ -231,6 +231,41 @@
           </div>
           <!-- .col -->
 
+
+          <div class="col-lg-6">
+
+            <div class="card h-100">
+              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-winey-pierre-full.svg"
+                alt="placeholder">
+              <div class="card-body text-center">
+                <h3 class="card-title">Winey Pierre</h3>
+                <h4 class="card-subtitle mb-2 font-weight-bold d-none"></h4>
+                <p class="card-text text-left">
+                Pierre hurls insults at those who urge him not to turn more natural habitat into grazing land for his cows, or into vineyards. The destruction of habitat due to livestock production and agriculture is the greatest reason for population declines in most wild animal species.
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <!-- .col -->
+
+          <div class="col-lg-6">
+
+            <div class="card h-100">
+              <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-nigel-dungsworth-full.svg"
+                alt="placeholder">
+              <div class="card-body text-center">
+                <h3 class="card-title">Nigel Dungsworth</h3>
+                <h4 class="card-subtitle mb-2 font-weight-bold d-none"></h4>
+                <p class="card-text text-left">
+                  The know-it-all British conservationist frequently attacked by animals!
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <!-- .col -->
+
         </div>
         <!-- .row -->
 
