@@ -4,7 +4,7 @@
  *
  * @package     Give
  * @subpackage  Payments
- * @copyright   Copyright (c) 2016, WordImpress
+ * @copyright   Copyright (c) 2016, GiveWP
  * @license     https://opensource.org/licenses/gpl-license GNU Public License
  * @since       1.0
  */
@@ -401,6 +401,8 @@ function give_bc_v20_get_payment_meta( $check, $object_id, $meta_key, $single ) 
 
 		// Set custom meta key into payment meta.
 		if ( ! empty( $payment_meta['_give_payment_meta'] ) ) {
+			$payment_meta['_give_payment_meta'] = is_array( $payment_meta['_give_payment_meta'] ) ? $payment_meta['_give_payment_meta'] : array();
+
 			$payment_meta = array_merge( maybe_unserialize( $payment_meta['_give_payment_meta'] ), $payment_meta );
 		}
 

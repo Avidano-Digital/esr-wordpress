@@ -5,7 +5,9 @@
 const blockAttributes = {
 	id: {
 		type: 'number',
-		default: 0,
+	},
+	prevId: {
+		type: 'number',
 	},
 	displayStyle: {
 		type: 'string',
@@ -29,7 +31,7 @@ const blockAttributes = {
 	},
 	showContent: {
 		type: 'string',
-		default: 'none',
+		default: 'above',
 	},
 };
 

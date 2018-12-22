@@ -17,7 +17,7 @@
  *
  * @package     Give
  * @subpackage  Emails
- * @copyright   Copyright (c) 2016, WordImpress
+ * @copyright   Copyright (c) 2016, GiveWP
  * @license     https://opensource.org/licenses/gpl-license GNU Public License
  * @since       1.0
  */
@@ -890,6 +890,7 @@ function give_email_tag_payment_id( $tag_args ) {
  * Email template tag: {receipt_id}
  *
  * The unique ID number for this donation receipt
+ * Please Note: Soon we are planning to deprecate this function and remove it from the email template because it will no useful.
  *
  * @param array $tag_args
  *
@@ -897,16 +898,13 @@ function give_email_tag_payment_id( $tag_args ) {
  */
 function give_email_tag_receipt_id( $tag_args ) {
 	$receipt_id = '';
-
 	// Backward compatibility.
 	$tag_args = __give_20_bc_str_type_email_tag_param( $tag_args );
-
 	switch ( true ) {
 		case give_check_variable( $tag_args, 'isset', 0, 'payment_id' ):
 			$receipt_id = give_get_payment_key( $tag_args['payment_id'] );
 			break;
 	}
-
 	/**
 	 * Filter the {receipt_id} email template tag output.
 	 *
@@ -1151,7 +1149,7 @@ function give_email_tag_sitename( $tag_args = array() ) {
  *
  * The donation receipt direct link, to view the receipt on the website.
  *
- * @param array $tag_args
+ * @param array $tag_args Email Tag Arguments.
  *
  * @return string receipt_link
  */
@@ -1159,26 +1157,15 @@ function give_email_tag_receipt_link( $tag_args ) {
 	// Backward compatibility.
 	$tag_args = __give_20_bc_str_type_email_tag_param( $tag_args );
 
-	$receipt_url = give_get_receipt_url( give_check_variable( $tag_args, 'empty', 0, 'payment_id' ) );
+	$donation_id = give_check_variable( $tag_args, 'empty', 0, 'payment_id' );
+	$receipt_url = give_get_receipt_url( $donation_id );
 
 	// Bailout.
 	if ( give_get_option( 'email_template' ) === 'none' ) {
 		return $receipt_url;
 	}
 
-	$receipt_url = esc_url(
-		add_query_arg(
-			array(
-				'payment_key' => give_get_payment_key( $tag_args['payment_id'] ),
-			), give_get_history_page_uri()
-		)
-	);
-
-	$formatted = sprintf(
-		'<a href="%1$s">%2$s</a>',
-		$receipt_url,
-		__( 'View it in your browser &raquo;', 'give' )
-	);
+	$formatted = give_get_receipt_link( $tag_args['payment_id'] );
 
 	/**
 	 * Filter the {receipt_link} email template tag output.
@@ -1233,22 +1220,19 @@ function give_email_tag_receipt_link_url( $tag_args ) {
  *
  * @since 2.0
  *
- * @param int $payment_id
+ * @param int $donation_id Donation ID.
  *
  * @return string
  */
-function give_get_receipt_url( $payment_id ) {
-	$receipt_url = '';
+function give_get_receipt_url( $donation_id ) {
 
-	if ( $payment_id ) {
-		$receipt_url = esc_url(
-			add_query_arg(
-				array(
-					'payment_key' => give_get_payment_key( $payment_id ),
-				), give_get_history_page_uri()
-			)
-		);
-	}
+	$receipt_url = esc_url(
+		add_query_arg(
+			array(
+				'donation_id' => $donation_id,
+			), give_get_history_page_uri()
+		)
+	);
 
 	return $receipt_url;
 }
@@ -1259,7 +1243,7 @@ function give_get_receipt_url( $payment_id ) {
  *
  * @since 2.0
  *
- * @param array $tag_args
+ * @param array $tag_args Email Tag Arguments.
  *
  * @return string
  */
@@ -1290,8 +1274,9 @@ function give_email_tag_email_access_link( $tag_args ) {
 	if ( $donor_id ) {
 		$verify_key = wp_generate_password( 20, false );
 
-		// Generate a new verify key
+		// Generate a new verify key.
 		Give()->email_access->set_verify_key( $donor_id, $donor->email, $verify_key );
+
 		// update verify key in email tags.
 		$tag_args['verify_key'] = $verify_key;
 
@@ -1305,11 +1290,12 @@ function give_email_tag_email_access_link( $tag_args ) {
 			give_get_history_page_uri()
 		);
 
-		// Add Payment Key to email access url, if it exists.
-		if ( ! empty( $_GET['payment_key'] ) ) {
+		// Add donation id to email access url, if it exists.
+		$donation_id = give_clean( filter_input( INPUT_GET, 'donation_id' ) );
+		if ( ! empty( $donation_id ) ) {
 			$access_url = add_query_arg(
 				array(
-					'payment_key' => give_clean( $_GET['payment_key'] ),
+					'donation_id' => $donation_id,
 				),
 				$access_url
 			);
@@ -1330,7 +1316,7 @@ function give_email_tag_email_access_link( $tag_args ) {
 				esc_url( $access_url )
 			);
 		}
-	}
+	} // End if().
 
 	/**
 	 * Filter the {email_access_link} email template tag output.
@@ -1650,7 +1636,7 @@ function give_email_donor_comment( $tag_args ) {
  * Note: meta data email tag must be in given format {meta_*}
  *
  * @since 2.0.3
- * @see   https://github.com/WordImpress/Give/issues/2801#issuecomment-365136602
+ * @see   https://github.com/impress-org/give/issues/2801#issuecomment-365136602
  *
  * @param $content
  * @param $tag_args

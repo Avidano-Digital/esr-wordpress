@@ -6,7 +6,7 @@
  *
  * @package     Give
  * @subpackage  Classes/Give_Import_Core_Settings
- * @copyright   Copyright (c) 2017, WordImpress
+ * @copyright   Copyright (c) 2017, GiveWP
  * @license     https://opensource.org/licenses/gpl-license GNU Public License
  * @since       1.8.17
  */
@@ -274,8 +274,8 @@ if ( ! class_exists( 'Give_Import_Core_Settings' ) ) {
 					</div>
 					<span class="spinner is-active"></span>
 					<input type="hidden" value="2" name="step">
-					<input type="hidden" value="<?php echo $type; ?>" name="type">
-					<input type="hidden" value="<?php echo $file_name; ?>" name="file_name">
+					<input type="hidden" value="<?php echo esc_attr( $type ); ?>" name="type">
+					<input type="hidden" value="<?php echo esc_attr( $file_name ); ?>" name="file_name">
 				</th>
 			</tr>
 			<?php

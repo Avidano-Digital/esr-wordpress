@@ -4,8 +4,8 @@
  * Plugin URI: https://givewp.com
  * Description: The most robust, flexible, and intuitive way to accept donations on WordPress.
  * Author: GiveWP
- * Author URI: https://wordimpress.com
- * Version: 2.3.0
+ * Author URI: https://givewp.com
+ * Version: 2.3.1
  * Text Domain: give
  * Domain Path: /languages
  *
@@ -29,12 +29,12 @@
  *
  * -- The Open Source Initiative
  *
- * Give is a tribute to the spirit and philosophy of Open Source. We at WordImpress gladly embrace the Open Source philosophy both
+ * Give is a tribute to the spirit and philosophy of Open Source. We at GiveWP gladly embrace the Open Source philosophy both
  * in how Give itself was developed, and how we hope to see others build more from our code base.
  *
  * Give would not have been possible without the tireless efforts of WordPress and the surrounding Open Source projects and their talented developers. Thank you all for your contribution to WordPress.
  *
- * - The WordImpress Team
+ * - The GiveWP Team
  */
 
 // Exit if accessed directly.
@@ -223,6 +223,20 @@ if ( ! class_exists( 'Give' ) ) :
 		public $logs;
 
 		/**
+		 * Give log db Object
+		 *
+		 * @var    Give_DB_Logs $log_db
+		 */
+		public $log_db;
+
+		/**
+		 * Give log meta db Object
+		 *
+		 * @var    Give_DB_Log_Meta $logmeta_db
+		 */
+		public $logmeta_db;
+
+		/**
 		 * Give payment Object
 		 *
 		 * @var    Give_DB_Payment_Meta $payment_meta
@@ -317,9 +331,6 @@ if ( ! class_exists( 'Give' ) ) :
 		private function init_hooks() {
 			register_activation_hook( GIVE_PLUGIN_FILE, 'give_install' );
 			add_action( 'plugins_loaded', array( $this, 'init' ), 0 );
-
-			// Set up localization on init Hook.
-			add_action( 'init', array( $this, 'load_textdomain' ), 0 );
 		}
 
 
@@ -353,6 +364,8 @@ if ( ! class_exists( 'Give' ) ) :
 			$this->tooltips               = new Give_Tooltips();
 			$this->notices                = new Give_Notices();
 			$this->payment_meta           = new Give_DB_Payment_Meta();
+			$this->log_db                 = new Give_DB_Logs();
+			$this->logmeta_db             = new Give_DB_Log_Meta();
 			$this->logs                   = new Give_Logging();
 			$this->form_meta              = new Give_DB_Form_Meta();
 			$this->sequential_donation_db = new Give_DB_Sequential_Ordering();
@@ -415,7 +428,7 @@ if ( ! class_exists( 'Give' ) ) :
 
 			// Plugin version.
 			if ( ! defined( 'GIVE_VERSION' ) ) {
-				define( 'GIVE_VERSION', '2.3.0' );
+				define( 'GIVE_VERSION', '2.3.1' );
 			}
 
 			// Plugin Root File.
@@ -510,6 +523,8 @@ if ( ! class_exists( 'Give' ) ) :
 			require_once GIVE_PLUGIN_DIR . 'includes/class-give-db-donor-meta.php';
 			require_once GIVE_PLUGIN_DIR . 'includes/class-give-db-form-meta.php';
 			require_once GIVE_PLUGIN_DIR . 'includes/class-give-db-sequential-ordering.php';
+			require_once GIVE_PLUGIN_DIR . 'includes/class-give-db-logs.php';
+			require_once GIVE_PLUGIN_DIR . 'includes/class-give-db-logs-meta.php';
 			require_once GIVE_PLUGIN_DIR . 'includes/class-give-donor.php';
 			require_once GIVE_PLUGIN_DIR . 'includes/class-give-donor-wall-widget.php';
 			require_once GIVE_PLUGIN_DIR . 'includes/class-give-stats.php';

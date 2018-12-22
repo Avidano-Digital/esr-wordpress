@@ -4,7 +4,7 @@
  *
  * @package     Give
  * @subpackage  Classes/Blocks
- * @copyright   Copyright (c) 2016, WordImpress
+ * @copyright   Copyright (c) 2016, GiveWP
  * @license     https://opensource.org/licenses/gpl-license GNU Public License
  * @since       2.0.2
  */
@@ -88,16 +88,21 @@ class Give_Donation_Form_Block {
 		register_block_type( 'give/donation-form', array(
 			'render_callback' => array( $this, 'render_donation_form' ),
 			'attributes'      => array(
-				'id'                  => array(
+				'id'	=> array(
 					'type' => 'number',
 				),
-				'displayStyle'        => array(
+				'prevId'	=> array(
+					'type' => 'number',
+				),
+				'displayStyle'	=> array(
 					'type' => 'string',
+					'default' => 'onpage',
 				),
 				'continueButtonTitle' => array(
 					'type' => 'string',
+					'default' => '',
 				),
-				'showTitle'           => array(
+				'showTitle'	=> array(
 					'type'    => 'boolean',
 					'default' => false,
 				),
@@ -105,9 +110,13 @@ class Give_Donation_Form_Block {
 					'type'    => 'boolean',
 					'default' => false,
 				),
+				'contentDisplay' => array(
+					'type' => 'boolean',
+					'default' => false,
+				),
 				'showContent'         => array(
 					'type'    => 'string',
-					'default' => 'none',
+					'default' => 'above',
 				),
 			),
 		) );
@@ -132,7 +141,7 @@ class Give_Donation_Form_Block {
 		$parameters['id']                    = $attributes['id'];
 		$parameters['show_title']            = $attributes['showTitle'];
 		$parameters['show_goal']             = $attributes['showGoal'];
-		$parameters['show_content']          = $attributes['showContent'];
+		$parameters['show_content']          = ! empty( $attributes['contentDisplay'] ) ? $attributes['showContent'] : 'none';
 		$parameters['display_style']         = $attributes['displayStyle'];
 		$parameters['continue_button_title'] = trim( $attributes['continueButtonTitle'] );
 
