@@ -160,7 +160,7 @@
                 <h3 class="card-title">Splash</h3>
                 <h4 class="card-subtitle mb-2 font-weight-bold">the Fishing Cat</h4>
                 <p class="card-text text-left">
-                Unlike other cats, Splash loves water, swimming...and fishing! He drenches people with his ungraceful leaps into rivers, and by drumming his paws like a wildcat! He delivers underwater bites when particularly upset!
+                  Unlike other cats, Splash loves water, swimming...and fishing! He drenches people with his ungraceful leaps into rivers, and by drumming his paws like a wildcat! He delivers underwater bites when particularly upset!
                 </p>
               </div>
             </div>
@@ -174,10 +174,10 @@
               <img class="card-img-top px-2" src="<?php echo get_template_directory_uri(); ?>/images/character-wendel-and-sally-full.svg"
                 alt="placeholder">
               <div class="card-body text-center">
-                <h3 class="card-title">Wendel &amp; Sally</h3>
-                <h4 class="card-subtitle mb-2 font-weight-bold">Whaleshark &amp; Saw Fish</h4>
+                <h3 class="card-title">Wendel Whaleshark</h3>
+                <h4 class="card-subtitle mb-2 font-weight-bold">&amp; Sally Saw Fish</h4>
                 <p class="card-text text-left">
-                Even though Wendel is the biggest fish in the ocean, he’s terrified of the romantic advances of spikey Sally! Nonetheless, they team up to fight for fishkind!
+                  Even though Wendel is the biggest fish in the ocean, he’s terrified of the romantic advances of spikey Sally! Nonetheless, they team up to fight for fishkind!
                 </p>
               </div>
             </div>
