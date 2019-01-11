@@ -24,7 +24,7 @@
             <li><a href="/projects/cheetahs" title="Cheetahs">Cheetahs</a></li>
             <li><a href="/projects/pink-dolphin-rescue" title="Pink Dolphin Rescue">Pink Dolphin Rescue</a></li>
             <li><a href="/projects/coral-climate-change" title="Coral Climate Change">Coral Climate Change</a></li>
-            <li><a href="/projects/moon-bear-rescue" title="Moon Bear Rescue">Moon Bear Rescue</a></li>
+            <li class="d-none"><a href="/projects/moon-bear-rescue" title="Moon Bear Rescue">Moon Bear Rescue</a></li>
         </ul>
     </li>
     <li>

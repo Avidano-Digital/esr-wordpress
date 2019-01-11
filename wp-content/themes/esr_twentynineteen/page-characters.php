@@ -143,7 +143,7 @@
                 <h3 class="card-title">Bertha</h3>
                 <h4 class="card-subtitle mb-2 font-weight-bold">the Burrowing Owl</h4>
                 <p class="card-text text-left">
-                  Twice the size of normal burrowing owls, she burrows vast estates below golf courses, and sells them for many mice to other burrowing owls, who want to shade themselves from the tropical Aruban sun. She’s not afraid to throw her weight around to pounce on people or invasive boas!
+                  Twice the size of normal burrowing owls, she burrows vast estates below golf courses and sells them for many mice to burrowing owl families who want shade from the tropical Aruban sun. She’s not afraid to throw her weight around against people or invasive boas! 
                 </p>
               </div>
             </div>
