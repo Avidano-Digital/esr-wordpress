@@ -214,7 +214,7 @@
                 <p class="card-text text-left">
                 The brilliant young environmental scientist Anita, whose disastrous lab experiment to reverse climate
                 change transforms her into the sinister, climate-change-loving Carbonita! As Carbonita, she seeks to destroy the
-                environment – fueled by a psychotic rage against her parents, who forced her to donate her allowance to
+                environment – fueled by a repressed psychotic rage against her parents, who forced her to donate her allowance to
                 save Mexican pygmy raccoons. Each madcap episode teaches youth 12-25 crucial ecological lessons!
                 </p>
               </div>
@@ -247,7 +247,6 @@
 
           </div>
           <!-- .col -->
-
 
           <div class="col-lg-6">
 
