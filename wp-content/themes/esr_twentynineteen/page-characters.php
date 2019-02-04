@@ -177,7 +177,7 @@
                 <h3 class="card-title">Wendel Whaleshark</h3>
                 <h4 class="card-subtitle mb-2 font-weight-bold">&amp; Sally Saw Fish</h4>
                 <p class="card-text text-left">
-                  Even though Wendel is the biggest fish in the ocean, he’s terrified of the romantic advances of spikey Sally! Nonetheless, they team up to fight for fishkind!
+                  Even though Wendel is the biggest fish in the ocean, he’s terrified of the romantic advances of spiky Sally! Nonetheless, they team up to fight for fishkind!
                 </p>
               </div>
             </div>
