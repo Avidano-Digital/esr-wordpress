@@ -25,18 +25,18 @@ get_header(); ?>
 
             <dl class="row justify-content-between py-2 mb-0">
                 <dt class="col-md">
-                    <strong class="d-block">Peter Gottesman</strong>
+                    <strong class="d-block">Peter</strong>
                     Founder &amp; President
                 </dt>
                 <dt class="col-md-auto">
-                    <a href="mailto:peterg@esrevenge.org">peterg@esrevenge.org</a>
+                    <a href="mailto:peter@esrevenge.org">peter@esrevenge.org</a>
                 </dt>
             </dl>
 
             <dl class="row justify-content-between border-top py-2 mb-0">
                 <dt class="col-md">
                     <strong class="d-block">Media &amp; PR Inquiries</strong>
-                    Gregory Crowley
+                    Gregory
                 </dt>
                 <dt class="col-md-auto">
                     <a href="mailto:greg@esrevenge.org">greg@esrevenge.org</a>
