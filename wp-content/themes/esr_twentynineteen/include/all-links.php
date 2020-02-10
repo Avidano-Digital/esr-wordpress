@@ -11,7 +11,10 @@
                     <li><a href="/projects/cheetahs" title="Cheetahs">Cheetahs</a></li>
                     <li><a href="/projects/pink-dolphin-rescue" title="Pink Dolphin Rescue">Pink Dolphin Rescue</a></li>
                     <li><a href="/projects/coral-climate-change" title="Coral Climate Change">Coral Climate Change</a></li>
-                    <li><a href="/projects/moon-bear-rescue" title="Moon Bear Rescue">Moon Bear Rescue</a></li>
+                    <li class="d-none">
+                    Moon Bear Rescue
+                    <span class="d-block fs-sm">(coming soon)</span>
+                    </li>
                 </ul>
             </div>
             <div class="col-sm-4 col-xxl-2">
@@ -40,8 +43,7 @@
                     <li class="h4 f-secondary font-weight-normal"><a class="text-green" href="/contact">Contact</a></li>
                     <li>
                         <p>
-                            +1-914-725-5602<br>
-                            <a class="text-primary" href="mailto:peter@esrevenge.org">peterg@esrevenge.org</a>
+                            <a class="text-primary" href="mailto:peter@esrevenge.org">peter@esrevenge.org</a>
                         </p>
                     </li>
                 </ul>

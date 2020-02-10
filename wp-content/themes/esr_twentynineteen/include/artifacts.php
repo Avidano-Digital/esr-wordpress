@@ -10,7 +10,7 @@
 
             <blockquote class="blockquote text-white mb-5">
                 <p>“Sensing the urgency to save endangered animals, I removed my collection of rare ancient Egyptian animal-god sculptures from the Metropolitan Museum of Art to fund ESR.”</p>
-                <footer class="blockquote-footer"><strong>Peter Gottesman,</strong> ESR Founder</footer>
+                <footer class="blockquote-footer"><strong>Peter,</strong> ESR Founder</footer>
             </blockquote>
 
         </div>
