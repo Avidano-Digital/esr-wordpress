@@ -95,8 +95,11 @@
                   This moon bear and panda fighting duo use their super powers and passion to rescue fellow bears held captive in the horrific “bear bile farming” industry of Asia.
                 </p>
               </div>
-              <div class="card-footer text-center">
-                <a href="/projects/moon-bear-rescue/" class="btn btn-lg btn-block btn-secondary text-primary" title="Button Link">Moon Bear Rescue</a>
+              <div class="card-footer text-center d-none">
+                <a href="/projects/moon-bear-rescue/" class="btn btn-lg btn-block btn-secondary text-primary disabled" title="Button Link">
+                Moon Bear Rescue
+
+                </a>
               </div>
             </div>
 
